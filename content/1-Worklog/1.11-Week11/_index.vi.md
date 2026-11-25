@@ -1,31 +1,29 @@
 ---
 title: "Worklog Tuần 11"
-date: 2026-11-24
+date: 2026-11-23
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 ### Mục tiêu tuần 11:
 
-* Đánh giá kết quả kiểm thử, tìm điểm nghẽn và tối ưu chi phí cho kiến trúc AWS của TINA.
-* Tăng tốc dịch trực tiếp tiếng Việt sang tiếng Anh và hoàn thiện pipeline CI/CD triển khai lên AWS.
-* Kiểm tra bảo mật cơ bản (WAF, IAM), thử nghiệm phương án tắt dịch vụ ngoài giờ, Fargate Spot và VPC endpoint.
+* Review kiến trúc AWS mục tiêu của nhóm cho TINA.
+* Viết proposal dự án bằng tiếng Anh và tiếng Việt.
+* Hoàn thiện ước tính chi phí và thực hành triển khai một service lên ECS Fargate.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Tăng tốc dịch trực tiếp từng cụm Việt → Anh, thêm cơ chế batch drain và giảm độ trễ. <br> - Bổ sung ngữ cảnh người nói/lượt thoại, ưu tiên đoạn cuối, lưu lựa chọn ngôn ngữ và làm sạch badge EN. <br> - Cập nhật tài liệu contract `meeting-translation.v2` cho chế độ hàng loạt và ngữ cảnh. <br> - Merge PR #26 (`enhance/streamming_translate_Vi2En`). | 23/11/2026 | 23/11/2026 |  |
-| 3 | - Chuyển sang dịch qua HTTP trực tiếp, dọn worker tạm và thêm "thought bubble" STT mềm. <br> - Sửa cú pháp concurrency trong GitHub Actions, publish image `tina-tts`, cho phép bật gipformer theo lựa chọn và thêm `workflow_dispatch`. <br> - Khai báo `TINA_DIRECT_TRANSLATE` trong `config.v1` và dọn dung lượng đĩa cho bản build bot. <br> - Đánh giá kết quả kiểm thử, xác định các điểm nghẽn của luồng dịch và deploy. | 24/11/2026 | 24/11/2026 |  |
-| 4 | - Publish `livekit-agent`, làm sạch manifest ECR và promote tag `demo`/`latest`. <br> - Đổi tên bộ kit và workflow `aws-demo` thành `aws`. <br> - Promote tag `:prod` thay vì `:demo` trên các workflow và bản deploy AWS. <br> - Rà soát phương án tối ưu chi phí: tắt Web/Agent/RDS/ElastiCache ngoài giờ, dùng Fargate Spot cho Bot/STT/TTS và VPC endpoint cho S3/ECR. | 25/11/2026 | 25/11/2026 |  |
-| 5 | - Kiểm tra bảo mật cơ bản: web ACL của WAF, IAM task role tối thiểu quyền, Secrets Manager và KMS. <br> - Đối chiếu cấu hình production trên AWS (ECS/Fargate, ALB, CloudFront, Cognito, SES) với bản thiết kế trong proposal. <br> - Theo dõi chi phí bằng AWS Budgets và Cost Explorer, cập nhật lại ước tính trong proposal. | 26/11/2026 | 26/11/2026 |  |
-| 6 | - Tổng hợp kết quả đánh giá, cập nhật proposal và tài liệu kiến trúc. <br> - Tổng kết tuần, cập nhật worklog và chuẩn bị cho các bước demo/tổng kết dự án. | 27/11/2026 | 27/11/2026 |  |
+| 2 | - Review kiến trúc AWS: CloudFront + WAF → ALB → các task ECS Fargate, RDS, ElastiCache, S3, Bedrock, SES. <br> - Góp ý luồng dữ liệu được đánh số. | 23/11/2026 | 23/11/2026 | [TINA repo](https://github.com/poor-frog/TINA) |
+| 3 | - Viết proposal: tóm tắt, vấn đề, luồng kiến trúc, dịch vụ AWS, ngân sách (~148 USD/tháng), rủi ro và kết quả kỳ vọng. | 24/11/2026 | 24/11/2026 | [AWS Pricing Calculator](https://calculator.aws/) |
+| 4 | - Chuyển lộ trình thành bảng theo tuần với công việc của từng thành viên. <br> - Fork repo báo cáo và viết lại worklog theo format FCAJ. | 25/11/2026 | 25/11/2026 |  |
+| 5 | - Tạo bản ước tính trên AWS Pricing Calculator và gắn link vào proposal. <br> - Đặt cảnh báo AWS Budgets ở mức 50%, 80% và 100%. | 26/11/2026 | 26/11/2026 | [AWS Pricing Calculator](https://calculator.aws/) |
+| 6 | - Triển khai container TTS từ ECR lên ECS Fargate, kiểm tra log CloudWatch rồi dọn dẹp tài nguyên. | 27/11/2026 | 27/11/2026 | [Amazon ECS Docs](https://docs.aws.amazon.com/ecs/) |
 
 ### Kết quả đạt được tuần 11:
 
-* Tăng tốc và ổn định luồng dịch trực tiếp Việt → Anh thông qua PR #26: batch drain, ngữ cảnh speaker/turn, ưu tiên đoạn cuối và lưu lựa chọn ngôn ngữ.
-* Chuyển sang dịch qua HTTP trực tiếp, dọn worker tạm và cập nhật tài liệu contract `meeting-translation.v2`.
-* Hoàn thiện pipeline CI/CD trên GitHub Actions/GHCR: publish `tina-tts` và `livekit-agent`, làm sạch manifest ECR, promote tag `:prod`, đổi tên kit/workflow AWS và thêm `workflow_dispatch`.
-* Rà soát các phương án tối ưu chi phí theo proposal: tắt dịch vụ ngoài giờ, Fargate Spot cho task cuộc họp, VPC endpoint cho S3/ECR và cảnh báo AWS Budgets.
-* Kiểm tra bảo mật cơ bản với WAF và IAM task role tối thiểu quyền; đối chiếu cấu hình production với kiến trúc đã thiết kế.
-* Nắm rõ hơn quy trình đánh giá điểm nghẽn, kiểm thử hồi quy và cập nhật tài liệu kiến trúc cho dự án.
+* Review kiến trúc mục tiêu và đối chiếu từng luồng được đánh số với dịch vụ tương ứng.
+* Hoàn thành proposal bằng hai ngôn ngữ, gồm bảng lộ trình theo tuần của nhóm.
+* Chuyển báo cáo sang fork cá nhân với worklog được viết lại.
+* Đang thực hiện: ước tính trên Pricing Calculator, cảnh báo ngân sách và lần triển khai ECS Fargate đầu tiên.

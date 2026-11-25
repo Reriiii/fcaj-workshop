@@ -1,31 +1,30 @@
 ---
 title: "Worklog Tuần 10"
-date: 2026-11-21
+date: 2026-11-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 ### Mục tiêu tuần 10:
 
-* Tiếp tục đóng góp vào dự án TINA, tập trung vào các nhánh `demo/aws` và `fix/post-meeting-mail-report`.
-* Khôi phục và cải thiện luồng báo cáo follow-up sau cuộc họp; chuẩn hóa lựa chọn AWS VieGem và đồng bộ voice capture.
-* Rèn luyện quy trình làm việc với nhánh, hợp nhất `main`, xử lý CI và cập nhật tài liệu kiến trúc.
+* Hoàn thành email follow-up sau cuộc họp và cấu hình gửi mail.
+* Review pull request của các thành viên.
+* Chuẩn bị chuyển TINA từ EC2 + Docker Compose sang ECS Fargate.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Khôi phục lựa chọn AWS VieGem và căn chỉnh timing voice capture. <br> - Căn chỉnh endpoint STT theo đồng hồ capture và loại bỏ các biến thể chính tả wake-name thu được từ STT. <br> - Hợp nhất `main` vào nhánh `demo/aws`; đưa shared formatter vào bản build Lite và dọn dẹp voice prefix. <br> - Làm mới code graph sau khi tích hợp `main` và merge PR #12 vào `main`. | 16/11/2026 | 16/11/2026 |  |
-| 3 | - Theo dõi, đối chiếu các thay đổi về mail từ các nhánh `feat/post-meeting-email`, `feat/mail-delivery-config`, `fix/shared-smtp-config`. <br> - Tìm hiểu cấu hình SMTP/Resend dùng chung, email follow-up có thương hiệu và đính kèm artifact link. <br> - Tái tạo lỗi thiếu báo cáo follow-up sau cuộc họp, chuẩn bị nhánh `fix/post-meeting-mail-report`. | 17/11/2026 | 17/11/2026 |  |
-| 4 | - Khôi phục luồng báo cáo follow-up sau cuộc họp (fix(flows): restore post-meeting follow-up reports). <br> - Tạo lại mô hình luồng báo cáo trong tài liệu kiến trúc và làm mới generated follow-up view. <br> - Xử lý trường hợp thiếu behavior capability; hợp nhất `main` vào nhánh fix. <br> - Merge PR #20 (`fix/post-meeting-mail-report`) vào `main`. | 18/11/2026 | 18/11/2026 |  |
-| 5 | - Kiểm tra hồi quy sau khi merge PR #12 và PR #20: luồng ASR/voice, wake-word và báo cáo follow-up. <br> - Đối chiếu fixture và test của luồng mail, đảm bảo module reload không làm sai lệch dữ liệu kiểm thử. <br> - Rà soát CI trên các bản build Lite và bản thường. | 19/11/2026 | 19/11/2026 |  |
-| 6 | - Dọn dẹp, cập nhật tài liệu kiến trúc và worklog dự án. <br> - Tổng kết các thay đổi trong tuần, ghi chú các điểm cần theo dõi cho tuần sau. | 20/11/2026 | 20/11/2026 |  |
+| 2 | - Gửi email follow-up có nhận diện thương hiệu kèm link tài liệu; thêm cấu hình gửi qua Resend SMTP. <br> - Sửa lỗi gửi follow-up, tích hợp main và tách fixture test mail. <br> - Merge PR #13 (Graphify), PR #16 (email sau cuộc họp) và PR #17 (cấu hình gửi mail). | 16/11/2026 | 16/11/2026 | [TINA PR #16](https://github.com/poor-frog/TINA/pull/16)<br>[TINA PR #17](https://github.com/poor-frog/TINA/pull/17) |
+| 3 | - Dùng chung cấu hình SMTP mã hóa giữa các service và viết tài liệu cách nạp cấu hình. <br> - Merge PR #19. | 17/11/2026 | 17/11/2026 | [TINA PR #19](https://github.com/poor-frog/TINA/pull/19) |
+| 4 | - Review PR #20 (khôi phục báo cáo sau cuộc họp). <br> - So sánh SMTP/Resend với Amazon SES cho môi trường thật: sandbox, domain đã xác minh, DKIM, chi phí. | 18/11/2026 | 18/11/2026 | [TINA PR #20](https://github.com/poor-frog/TINA/pull/20)<br>[Amazon SES Docs](https://docs.aws.amazon.com/ses/) |
+| 5 | - Tìm hiểu ECS Fargate cho TINA: mỗi service một task definition, service discovery, secrets. <br> - Tìm hiểu Cognito liên kết Google làm identity provider. | 19/11/2026 | 19/11/2026 | [Amazon ECS Docs](https://docs.aws.amazon.com/ecs/)<br>[Amazon Cognito Docs](https://docs.aws.amazon.com/cognito/) |
+| 6 | - Thu thập giả định giá cho proposal: Fargate theo vCPU/GB-giờ, ALB, NAT Gateway, RDS, ElastiCache. | 20/11/2026 | 20/11/2026 | [AWS Pricing Calculator](https://calculator.aws/) |
 
 ### Kết quả đạt được tuần 10:
 
-* Đưa nhánh `demo/aws` vào `main` thông qua PR #12: khôi phục lựa chọn AWS VieGem, đồng bộ STT với capture clock, loại bỏ wake-name sai chính tả và dọn voice prefix.
-* Đưa shared formatter vào bản build Lite, làm mới code graph và giữ CI ổn định sau khi tích hợp `main`.
-* Khôi phục thành công báo cáo follow-up sau cuộc họp và merge PR #20 từ nhánh `fix/post-meeting-mail-report`.
-* Cập nhật mô hình luồng báo cáo trong tài liệu kiến trúc, làm mới follow-up view và xử lý trường hợp thiếu behavior capability.
-* Phối hợp review các PR về mail của team (SMTP/Resend dùng chung, email follow-up có thương hiệu và artifact link).
-* Thành thạo hơn quy trình merge nhiều nhánh với `main`, xử lý xung đột và kiểm tra hồi quy trước khi merge.
+* Người tham dự nhận email follow-up có nhận diện thương hiệu kèm link tóm tắt và bản ghi sau mỗi cuộc họp.
+* Cấu hình mail được mã hóa và dùng chung, mọi service gửi qua cùng một cấu hình.
+* Merge bốn pull request (#13, #16, #17, #19) và review công việc của các thành viên.
+* Có kế hoạch rõ ràng và số liệu đầu vào chi phí để chạy TINA trên ECS Fargate.
+* Tham dự AWS Student Community Day Vietnam 2026 (21/11).

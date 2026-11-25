@@ -1,33 +1,29 @@
 ---
 title: "Worklog Tuần 8"
-date: 2026-11-08
+date: 2026-11-02
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
+### Mục tiêu tuần 8:
 
-### Mục tiêu tuần 8
-
-- Phát triển chức năng dịch trực tiếp từ tiếng Việt sang tiếng Anh theo từng cụm, kết hợp bộ nhớ đệm, cơ chế retry và đồng bộ giữa ứng dụng web với browser extension.
-- Nâng cao chất lượng nhận dạng giọng nói và hiệu chỉnh transcript thông qua phân tích chất lượng âm thanh, xử lý có chọn lọc và retry an toàn.
-- Cải thiện cấu hình mô hình AI, tích hợp các provider và nâng cao trải nghiệm người dùng trên giao diện cuộc họp.
-- Tối ưu hệ thống kiểm thử tự động, cải thiện độ ổn định của CI và các thành phần backend, xử lý giọng nói và frontend.
+* Chuyển sang codebase TINA self-hosted mới của nhóm (meeting bot, phiên âm, agent).
+* Xây dựng trợ lý giọng nói: nhận diện wake word, thu câu hỏi và trả lời bằng giọng nói.
+* Viết test cho luồng speech và merge vào main.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Chuẩn bị nhánh phát triển cho chức năng dịch trực tiếp tiếng Việt sang tiếng Anh và cập nhật tài liệu dự án. <br> - Kiểm tra cấu trúc ứng dụng, quy trình phát triển và các yêu cầu tích hợp giữa các thành phần. <br> - Cấu hình CI cho nhánh live translation và cải thiện khả năng tương thích của Git pre-push trên Windows. | 02/11/2026 | 02/11/2026 |  |
-| 3 | - Phát triển chức năng dịch tiếng Việt sang tiếng Anh theo từng cụm dựa trên contract `meeting-translation.v2`, bao gồm phân nhóm theo người nói, xác định ranh giới cụm, quản lý trạng thái và retry. <br> - Xây dựng cơ chế lưu cache bản dịch bằng SQLite và quản lý lease để tránh xử lý trùng lặp giữa web và extension. <br> - Cải thiện Settings → Models với danh sách mô hình động, lựa chọn model, kiểm tra credentials và hỗ trợ các provider như Groq và OpenAI-compatible. <br> - Tích hợp kết quả dịch vào ứng dụng web và browser extension, đồng thời giữ nguyên transcript tiếng Việt khi bản dịch chưa sẵn sàng. | 03/11/2026 | 03/11/2026 |  |
-| 4 | - Cải thiện giao diện browser extension bằng cách tối ưu bố cục transcript và thu gọn các thành phần điều khiển cuộc họp. <br> - Điều chỉnh giao diện Meeting Recap và Transcript Viewer để hỗ trợ responsive và điều hướng thuận tiện hơn. <br> - Cải thiện thao tác bàn phím đối với modal dialog và thay thế màu giao diện cố định bằng theme token. <br> - Kiểm tra tính nhất quán và khả năng sử dụng của các thành phần giao diện cuộc họp. | 04/11/2026 | 04/11/2026 |  |
-| 5 | - Nâng cấp chức năng hiệu chỉnh transcript với các chế độ xử lý `all`, `check`, `flagged` và cơ chế đánh giá chất lượng âm thanh nhằm phát hiện âm lượng thấp, clipping, khoảng lặng và lặp nội dung. <br> - Phát triển cơ chế retry an toàn cho các ASR segment bị lỗi, kết hợp xác minh dữ liệu nguồn, mã lỗi cố định và kiểm tra phiên bản để tránh áp dụng kết quả cũ. <br> - Bổ sung chuẩn hóa âm thanh tùy chọn, cải thiện đồng bộ thời gian và so sánh transcript gốc với phiên bản hiệu chỉnh. <br> - Cải thiện giao diện Terminal và Dashboard với tính năng so sánh nội dung, phát lại âm thanh và hiển thị cảnh báo chất lượng. <br> - Điều chỉnh trạng thái ASR khi backend VieGem tùy chọn bị vô hiệu hóa. | 05/11/2026 | 05/11/2026 |  |
-| 6 | - Phát triển chức năng retry độc lập cho từng cụm dịch bị lỗi, sử dụng cơ chế cooldown và lease chung giữa ứng dụng web và extension. <br> - Cải thiện độ tin cậy của bản dịch bằng cách từ chối kết quả không đầy đủ hoặc không còn khớp với phiên bản transcript hiện tại, đồng thời giữ lại bản dịch đã lưu trong cache. <br> - Cải thiện khả năng nhận diện wake phrase, hỗ trợ cách gọi "hay tina" và duy trì khoảng thời gian tiếp tục hội thoại. <br> - Nâng cấp CI bằng Python 3.12, cải thiện thông tin thực thi test, xử lý timeout và theo dõi các bài kiểm thử bị treo. <br> - Khắc phục lỗi kiểm thử bất đồng bộ liên quan đến ChatGPT reconnect và speech room shutdown, đồng thời kiểm tra các thành phần backend, speech, frontend và extension. | 06/11/2026 | 06/11/2026 |  |
+| 2 | - Tìm hiểu codebase mới: meeting bot, transcript stream qua Redis và agent. <br> - Viết kế hoạch triển khai tina-speech gồm ba giai đoạn. | 02/11/2026 | 02/11/2026 | [TINA repo](https://github.com/poor-frog/TINA) |
+| 3 | - Thử nghiệm giai đoạn 1: nhận diện wake word trên âm thanh cục bộ. <br> - Cố định phiên bản runtime và model KWS; ghi nhận kết quả giai đoạn 1 và 2. | 03/11/2026 | 03/11/2026 | [TINA repo](https://github.com/poor-frog/TINA) |
+| 4 | - Thêm TTS sidecar chạy CPU (tùy chọn), giọng nữ, đọc đúng tên "Tina". <br> - Bot báo kết quả phát giọng nói; meeting service theo dõi các lượt phát tương ứng. | 04/11/2026 | 04/11/2026 | [TINA repo](https://github.com/poor-frog/TINA) |
+| 5 | - Điều phối lượt nói được cấp quyền, tạm dừng host khi đang có lượt chung và rào quyền thu âm. <br> - Test wake gating, replay, phân xử nhiều client và khôi phục. <br> - Sửa pre-push gate chạy trên Windows. | 05/11/2026 | 05/11/2026 | [TINA repo](https://github.com/poor-frog/TINA) |
+| 6 | - Giới hạn request TTS và giữ được việc hủy; thu cả câu hỏi bị KWS báo trễ. <br> - Nạp env mã hóa dùng chung bằng dotenvx. <br> - Merge PR #7 feat/tina-speech vào main. | 06/11/2026 | 06/11/2026 | [TINA PR #7](https://github.com/poor-frog/TINA/pull/7) |
 
-### Kết quả đạt được tuần 8
+### Kết quả đạt được tuần 8:
 
-- Phát triển chức năng dịch trực tiếp tiếng Việt sang tiếng Anh theo từng cụm với cơ chế caching, quản lý xử lý đồng thời và retry, hỗ trợ cả web và extension.
-- Cải thiện hệ thống cấu hình AI model thông qua danh sách mô hình động, tích hợp provider và kiểm tra credentials.
-- Nâng cao chất lượng hiệu chỉnh transcript bằng cơ chế cảnh báo âm thanh, xử lý ASR có chọn lọc, retry an toàn và so sánh nội dung trước và sau hiệu chỉnh.
-- Tối ưu trải nghiệm người dùng trên giao diện cuộc họp, bao gồm Transcript Viewer, Meeting Recap và các thành phần điều khiển.
-- Cải thiện độ ổn định của hệ thống CI và các bài kiểm thử tự động cho backend, speech processing và frontend.
-- Tích hợp các thay đổi chính về Live Translation và ASR Refinement vào nhánh `main`; phần cấu hình Translation Model riêng vẫn đang chờ tích hợp.
+* Hoàn thành trợ lý giọng nói: gọi "Tina", đặt câu hỏi và nghe câu trả lời ngay trong cuộc họp.
+* Xử lý tranh chấp: mỗi lúc chỉ có một lượt nói được cấp quyền, có khôi phục khi client rớt kết nối.
+* Viết test cho wake gating, giao thức TTS, phát âm thanh và phân xử nhiều client.
+* Merge tính năng vào main qua PR #7.

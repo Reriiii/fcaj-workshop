@@ -1,32 +1,30 @@
 ---
 title: "Week 2 Worklog"
-date: 2026-09-26
+date: 2026-09-21
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 ### Week 2 Objectives:
 
-* Get familiar with the environment and members of First Cloud AI Journey.
-* Strengthen foundational knowledge of AWS, Deep Learning and Natural Language Processing.
-* Practice some basic AWS services through labs.
+* Design and build a VPC with public and private subnets across two Availability Zones.
+* Understand traffic control with route tables, security groups and network ACLs.
+* Practice connecting to instances securely and keeping network costs low.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | - Get familiar with the program and members of First Cloud AI Journey.<br>- Review basic AWS knowledge.<br>- Study the principles and applications of CNN, RNN, GNN and Transformer models. | 21/09/2026 | 21/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
-| 3 | - Learn how to use AWS Console and AWS CLI.<br>- Practice IAM, VPC and EC2, including access management and basic networking.<br>- Deploy an application on EC2. | 22/09/2026 | 22/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
-| 4 | - Complete **Natural Language Processing with Classification and Vector Spaces**.<br>- Complete **Natural Language Processing with Probabilistic Models**.<br>- Focus on text classification, word vector representations and probabilistic models in NLP. | 23/09/2026 | 23/09/2026 | [Coursera – Classification and Vector Spaces](https://www.coursera.org/learn/classification-vector-spaces-in-nlp?specialization=natural-language-processing)<br>[Coursera – Probabilistic Models](https://www.coursera.org/learn/probabilistic-models-in-nlp?specialization=natural-language-processing) |
-| 5 | - Complete **Natural Language Processing with Sequence Models**.<br>- Complete **Natural Language Processing with Attention Models**.<br>- Study sequential data processing, Attention and Transformer in NLP. | 24/09/2026 | 24/09/2026 | [Coursera – Sequence Models](https://www.coursera.org/learn/sequence-models-in-nlp?specialization=natural-language-processing)<br>[Coursera – Attention Models](https://www.coursera.org/learn/attention-models-in-nlp?specialization=natural-language-processing) |
-| 6 | - Practice granting applications access to AWS services with IAM Role.<br>- Get familiar with AWS Cloud9 and the cloud development environment.<br>- Complete the weekly AWS labs. | 25/09/2026 | 25/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| --- | --- | --- | --- | --- |
+| 2 | - Study VPC, CIDR planning, subnets, route tables and the Internet Gateway. <br> - Build a VPC with 2 public and 2 private subnets in 2 AZs. | 21/09/2026 | 21/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/)<br>[Amazon VPC Docs](https://docs.aws.amazon.com/vpc/latest/userguide/) |
+| 3 | - Compare security groups (stateful) and network ACLs (stateless). <br> - Launch an EC2 instance in a public subnet and connect with a key pair. | 22/09/2026 | 22/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/)<br>[Amazon VPC Docs](https://docs.aws.amazon.com/vpc/latest/userguide/) |
+| 4 | - Add a NAT Gateway so private instances can reach the Internet. <br> - Connect to a private instance with Session Manager instead of a bastion host. <br> - Enable VPC Flow Logs to CloudWatch Logs. | 23/09/2026 | 23/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/)<br>[Amazon VPC Docs](https://docs.aws.amazon.com/vpc/latest/userguide/) |
+| 5 | - Learn VPC peering, Transit Gateway and Site-to-Site VPN at the concept level. <br> - Learn Route 53 hosted zones and basic routing policies. | 24/09/2026 | 24/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Draw the lab VPC in draw.io. <br> - Delete the NAT Gateway and Elastic IP after the lab and check the bill. | 25/09/2026 | 25/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 2 Achievements:
 
-* Got familiar with the learning environment and working style in First Cloud AI Journey.
-* Grasped basic AWS knowledge and how to use AWS Management Console, AWS CLI.
-* Understood and practiced services such as IAM, VPC, EC2, IAM Role and Cloud9.
-* Learned to create, connect to and manage EC2 resources at a basic level.
-* Gained understanding of CNN, RNN, GNN and Transformer models.
-* Completed NLP contents related to Classification, Probabilistic Models, Sequence Models and Attention Models.
-* Gained more hands-on experience with AWS through practice labs.
+* Built a two-AZ VPC with public/private subnets, IGW, NAT Gateway and working route tables.
+* Chose correctly between security groups and network ACLs for each rule.
+* Accessed private instances through Session Manager without opening SSH to the Internet.
+* Learned that NAT Gateway and public IPv4 addresses are recurring costs and cleaned them up.
+* Attended the Buildrathon Kickoff: Code the Future with CMC Global (26/09).

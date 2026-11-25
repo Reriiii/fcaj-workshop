@@ -1,31 +1,30 @@
 ---
 title: "Week 10 Worklog"
-date: 2026-11-21
+date: 2026-11-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 ### Week 10 Objectives:
 
-* Continue contributing to TINA, focusing on the `demo/aws` and `fix/post-meeting-mail-report` branches.
-* Restore and improve the post-meeting follow-up report flow; standardize AWS VieGem selection and voice capture synchronization.
-* Practice working with branches, merging `main`, handling CI and updating architecture documentation.
+* Ship the post-meeting follow-up email and the mail delivery configuration.
+* Review teammates' pull requests.
+* Prepare for moving TINA from EC2 + Docker Compose to ECS Fargate.
 
 ### Tasks to be carried out this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Restore AWS VieGem selection and align voice capture timing. <br> - Align STT endpoints with the capture clock and strip observed STT wake-name spellings. <br> - Merge `main` into the `demo/aws` branch; include the shared formatter in Lite builds and finish voice prefix cleanup. <br> - Refresh the code graph after the `main` integration and merge PR #12 into `main`. | 16/11/2026 | 16/11/2026 |  |
-| 3 | - Follow and cross-check mail changes from the `feat/post-meeting-email`, `feat/mail-delivery-config`, and `fix/shared-smtp-config` branches. <br> - Learn the shared SMTP/Resend setup and branded follow-up emails with artifact links. <br> - Reproduce the missing post-meeting follow-up report issue and prepare the `fix/post-meeting-mail-report` branch. | 17/11/2026 | 17/11/2026 |  |
-| 4 | - Restore the post-meeting follow-up report flow. <br> - Regenerate the report flow model in the architecture docs and refresh the generated follow-up view. <br> - Handle missing behavior capability and merge `main` into the fix branch. <br> - Merge PR #20 (`fix/post-meeting-mail-report`) into `main`. | 18/11/2026 | 18/11/2026 |  |
-| 5 | - Run regression checks after merging PR #12 and PR #20: ASR/voice flow, wake-word and follow-up reports. <br> - Cross-check mail flow fixtures and tests so module reloads do not corrupt test data. <br> - Review CI on both Lite and standard builds. | 19/11/2026 | 19/11/2026 |  |
-| 6 | - Clean up and update architecture docs and the project worklog. <br> - Summarize the week's changes and note items to follow up next week. | 20/11/2026 | 20/11/2026 |  |
+| 2 | - Send branded meeting follow-ups with artifact links; add configurable Resend SMTP delivery. <br> - Fix follow-up delivery, integrate main and isolate mail test fixtures. <br> - Merge PR #13 (Graphify), PR #16 (post-meeting email) and PR #17 (mail delivery config). | 16/11/2026 | 16/11/2026 | [TINA PR #16](https://github.com/poor-frog/TINA/pull/16)<br>[TINA PR #17](https://github.com/poor-frog/TINA/pull/17) |
+| 3 | - Share the encrypted SMTP configuration between services and document how it is loaded. <br> - Merge PR #19. | 17/11/2026 | 17/11/2026 | [TINA PR #19](https://github.com/poor-frog/TINA/pull/19) |
+| 4 | - Review PR #20 (restore post-meeting reports). <br> - Compare SMTP/Resend with Amazon SES for production: sandbox, verified domain, DKIM, cost. | 18/11/2026 | 18/11/2026 | [TINA PR #20](https://github.com/poor-frog/TINA/pull/20)<br>[Amazon SES Docs](https://docs.aws.amazon.com/ses/) |
+| 5 | - Study ECS on Fargate for TINA: one task definition per service, service discovery, secrets. <br> - Study Cognito federation with Google as the identity provider. | 19/11/2026 | 19/11/2026 | [Amazon ECS Docs](https://docs.aws.amazon.com/ecs/)<br>[Amazon Cognito Docs](https://docs.aws.amazon.com/cognito/) |
+| 6 | - Collect pricing assumptions for the proposal: Fargate vCPU/GB-hours, ALB, NAT Gateway, RDS, ElastiCache. | 20/11/2026 | 20/11/2026 | [AWS Pricing Calculator](https://calculator.aws/) |
 
 ### Week 10 Achievements:
 
-* Merged the `demo/aws` branch into `main` via PR #12: restored AWS VieGem selection, synchronized STT with the capture clock, removed misspelled wake-names and cleaned up the voice prefix.
-* Included the shared formatter in Lite builds, refreshed the code graph and kept CI stable after integrating `main`.
-* Successfully restored the post-meeting follow-up reports and merged PR #20 from `fix/post-meeting-mail-report`.
-* Updated the report flow model in the architecture docs, refreshed the follow-up view and handled missing behavior capability.
-* Collaborated on reviewing the team's mail PRs (shared SMTP/Resend config, branded follow-up emails with artifact links).
-* Improved the workflow of merging multiple branches with `main`, resolving conflicts and running regression checks before merging.
+* Attendees now receive a branded follow-up email with summary and recording links after each meeting.
+* Mail settings are encrypted and shared, so every service sends through the same configuration.
+* Merged four pull requests (#13, #16, #17, #19) and reviewed teammates' work.
+* Have a clear plan and cost inputs for running TINA on ECS Fargate.
+* Attended AWS Student Community Day Vietnam 2026 (21/11).

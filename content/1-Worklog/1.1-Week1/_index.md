@@ -1,35 +1,30 @@
 ---
 title: "Week 1 Worklog"
-date: 2026-09-19
+date: 2026-09-14
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 ### Week 1 Objectives:
 
-* Complete the registration process and get familiar with the AWS environment.
-* Understand the program rules, regulations and requirements.
-* Review foundational knowledge of Transformer, Machine Learning and popular algorithms.
-* Learn basic AWS knowledge and Generative AI on AWS.
-* Strengthen knowledge of Explainable AI, A/B Testing, RAG and FastAPI.
+* Join the First Cloud AI Journey program and understand the internship rules and deliverables.
+* Create and secure a personal AWS account and keep spending under control from day one.
+* Build a foundation in cloud computing concepts and the AWS global infrastructure.
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                                                                                                                                                                     | Start Date | Completion Date | Reference Material                                                                                                                                                 |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2   | - Register and set up an AWS account. <br> - Complete the required Labs to receive **$100 AWS Credit**. <br> - Read and understand the **program rules, regulations and requirements**. | 14/09/2026 | 14/09/2026      | [us-west-1.console.aws.amazon.com](https://us-west-1.console.aws.amazon.com/)                                                                                       |
-| 3   | Review the **Transformer** architecture, study **GPT, BERT, Attention mechanisms and Positional Encoding**. Also complete basic AWS modules on **Introduction to AWS, Management Console, Generative AI with Kiro and AWS Optimization**.                                                                                               | 15/09/2026 | 15/09/2026      | [www.facebook.com/aivietnam.edu.vn](https://www.facebook.com/aivietnam.edu.vn)<br />[us-west-1.console.aws.amazon.co](https://ap-southeast-2.signin.aws.amazon.com/) |
-| 4   | Review basic Machine Learning algorithms, focusing on **Regression, Classification, KNN, K-Means, Naive Bayes and Boosting models**.                                                                                                                                                                                                                | 16/09/2026 | 16/09/2026      | [www.facebook.com/aivietnam.edu.vn](https://www.facebook.com/aivietnam.edu.vn)                                                                                      |
-| 5   | Continue reviewing Machine Learning and Data Mining algorithms such as **Decision Tree, Random Forest, SVM, PCA, DBSCAN, Isolation Forest and ARIMA**.                                                                                                                                                                                              | 17/09/2026 | 17/09/2026      | [www.facebook.com/aivietnam.edu.vn](https://www.facebook.com/aivietnam.edu.vn)                                                                                      |
-| 6   | - Study and review **SHAP (SHapley Additive exPlanations)** to explain Machine Learning model outputs. <br> - Review **A/B Testing** and how to evaluate experiment results. <br> - Review the architecture and workflow of **Retrieval-Augmented Generation (RAG)**. <br> - Review **FastAPI** and how to build APIs for AI/ML applications. | 18/09/2026 | 18/09/2026      | [www.facebook.com/aivietnam.edu.vn](https://www.facebook.com/aivietnam.edu.vn)                                                                                      |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Attend the FCAJ orientation session. <br> - Read the internship rules: worklog, proposal, workshop, events, self-evaluation and feedback. <br> - Set up the Hugo report repository and run it locally. | 14/09/2026 | 14/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Create the AWS account and enable MFA for the root user. <br> - Create an IAM admin group and user; stop using root for daily work. <br> - Create a monthly cost budget with email alerts in AWS Budgets. | 15/09/2026 | 15/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/)<br>[AWS IAM Docs](https://docs.aws.amazon.com/iam/) |
+| 4 | - Study cloud computing concepts and the benefits of the cloud. <br> - Learn the AWS global infrastructure: Regions, Availability Zones and edge locations. <br> - Learn the shared responsibility model and AWS pricing models. | 16/09/2026 | 16/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Install AWS CLI v2 and configure named profiles. <br> - Compare working through the Console and the CLI on basic tasks. <br> - Review AWS Support plans and the Free Tier. | 17/09/2026 | 17/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Explore Cost Explorer and the billing dashboard. <br> - Summarize the week's notes and plan the learning path for the next weeks. | 18/09/2026 | 18/09/2026 | [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 1 Achievements:
 
-* Completed AWS account setup and the required Labs to receive **100 AWS Credit**.
-* Understood the program rules, requirements, and working guidelines.
-* Strengthened knowledge of **Transformer architectures**, including GPT, BERT, Attention mechanisms, and Positional Encoding.
-* Completed introductory AWS topics, including **AWS Management Console, Generative AI with Kiro, and AWS Optimization**.
-* Reviewed key **Machine Learning algorithms**, covering regression, classification, clustering, ensemble methods, dimensionality reduction, anomaly detection, and time-series forecasting.
-* Strengthened knowledge of **SHAP** for model explainability and reviewed the basic process of **A/B Testing**.
-* Reviewed the **RAG architecture**, including document processing, embeddings, vector databases, retrieval, and LLM-based generation.
-* Reviewed **FastAPI** and its use in building APIs for integrating and deploying AI/ML models.
+* Understood the FCAJ internship requirements and the structure of the final report.
+* Set up a secured AWS account: root MFA, IAM admin user and a monthly budget alert.
+* Explained Regions, AZs, edge locations and the shared responsibility model.
+* Used both the AWS Console and AWS CLI v2 with named profiles.
+* Knew where to track spending with Budgets, Cost Explorer and the billing dashboard.
