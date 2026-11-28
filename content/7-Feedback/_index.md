@@ -1,6 +1,6 @@
 ---
 title: "Sharing and Feedback"
-date: 2026-11-24
+date: 2026-11-25
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
@@ -19,39 +19,39 @@ pre: " <b> 7. </b> "
 
 **1. Working Environment**
 
-The working environment is friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus on complex AI and architecture tasks. It would be great to have more informal sharing sessions or team-bonding activities to strengthen relationships across the four-person project team.
+The program gave me a lot of freedom to choose how to work, which suited a project like TINA where most of the work happens in code and pull requests. Community events, such as the AWS Cloud & AI Day watch party, Community Day and Cloud Mastery, were good chances to meet people outside my team and see how others use AWS. I would like more shared in-person working days, so intern teams can sit together and unblock each other faster.
 
 **2. Support from Mentor / Team Admin**
 
-The mentor gave very detailed guidance, explained things clearly when I did not understand, and always encouraged me to ask questions. The admin team supported administrative tasks, provided the necessary documents and created favorable conditions for my work. I especially appreciated being allowed to try and solve problems myself — for example, debugging the live transcription to agent to TTS path — instead of being handed the answer.
+The mentor and admin team answered questions quickly and pointed me to the right labs and documents. The program rules and report format were clear from the first week. What helped me most was the trust to make technical decisions myself, then get feedback afterwards. For example, I designed the speaker-turn coordination for the voice assistant on my own and adjusted it after review.
 
 **3. Relevance of Work to Academic Major**
 
-The tasks matched my AI major well while introducing areas I had not explored before: production generative AI on Amazon Bedrock, real-time speech pipelines and AWS container architecture. I could strengthen my academic foundation in machine learning and NLP while learning how an AI system is actually deployed, monitored and cost-controlled.
+My background is in AI and data. The internship connected it with things school does not cover much: cloud infrastructure, networking, cost control and running real-time services. Building the voice assistant used my knowledge of speech and language models, while the AWS labs filled the gap on how such systems are hosted and secured.
 
 **4. Learning & Skill Development Opportunities**
 
-As an AI Engineer intern, I learned to integrate Bedrock models into an agent ("Ask TINA"), design prompt and meeting context, evaluate Vietnamese ASR and summary quality, and work with STT/TTS services. I also improved broader engineering skills: Python/TypeScript services, Docker, CI/CD, Git/PR workflows, cost optimization and professional communication in a corporate environment. The mentor's real-world experience helped me plan my career path.
+I learned the core AWS services through hands-on labs, then applied them to a real product. On the engineering side, I learned to work in a large monorepo with CI gates, write tests before merging, handle secrets safely with encrypted configuration, and review other people's code. On the professional side, I learned to plan work in phases, write proposals with cost estimates, and keep a weekly worklog.
 
 **5. Company Culture & Team Spirit**
 
-The culture is positive: people respect each other, work seriously but stay approachable. When deadlines were tight, everyone supported each other regardless of role. This made me feel like a real part of the team, even as an intern.
+The FCAJ community is open and willing to share. Within the TINA team, each member owned a different area — translation, live assist, agent and voice — but we reviewed each other's pull requests and fixed integration issues together when `main` changed. That made the project feel like a shared product rather than four separate assignments.
 
 **6. Internship Policies / Benefits**
 
-The program provides an internship allowance and flexible working hours when needed. Being able to join internal training sessions and community events was a big plus.
+The flexible schedule let me balance the internship with my studies. The AWS credits and access to services like Amazon Bedrock made it possible to experiment with real AI workloads, as long as we watched the budget carefully.
 
 ### Additional Questions
 
-- **What did you find most satisfying?** Seeing TINA work end-to-end in a real meeting — live Vietnamese transcript, English/bilingual view, spoken answers through the wake word, and the follow-up email after the call. Turning an architecture diagram on paper into a running system was the most rewarding moment.
+- **What did you find most satisfying?** The first time I said "Tina" in a live Google Meet call, asked a question and heard the answer spoken back in the meeting. It was the result of many small parts working together: wake-word detection, turn coordination, the agent, TTS and bot playback.
 
-- **What should the company improve for future interns?** More structured technical mentorship for AI roles, such as scheduled model-evaluation reviews and clearer benchmarks for "good enough" output, plus more opportunities to present work to a wider audience.
+- **What should the company improve for future interns?** A short guide on managing a shared AWS budget at the start of the project, and clearer checkpoints for when the team should move from local development to deploying on AWS. Our team spent a lot of effort controlling costs that a template budget policy could have covered.
 
-- **Would you recommend this internship to a friend?** Yes. It offers real ownership of a project, direct access to AWS and AI technologies, and a supportive community that genuinely wants interns to learn.
+- **Would you recommend this internship to a friend?** Yes, especially to students who already know some AI or programming and want to learn how to build and run a real system on the cloud.
 
 ### Suggestions & Expectations
 
-- Add short, regular technical sharing sessions where interns demo their work and receive feedback from senior engineers.
-- Provide earlier access to model quotas and test accounts so AI experiments are not blocked by provisioning.
-- Keep the practice of letting interns lead a workstream and review each other's pull requests — it builds real engineering judgment.
-- I would be glad to stay connected with FCAJ and continue contributing to TINA and similar AI-on-AWS projects after the internship.
+- Offer an optional lab track on deploying a multi-service application to ECS Fargate with CI/CD, close to what final projects actually need.
+- Hold a mid-program review where each team demos a working slice and gets architecture feedback from a Solutions Architect.
+- Share sample cost estimates and budget alarm setups from previous cohorts.
+- After the internship, I would like to keep contributing to TINA and stay in touch with the FCAJ community.

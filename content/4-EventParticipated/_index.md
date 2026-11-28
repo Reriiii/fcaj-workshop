@@ -5,7 +5,7 @@ weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
-Throughout my internship and participation in the First Cloud AI Journey program, I actively took part in six major events. Each event was a memorable experience that brought me fresh technical knowledge, useful soft skills, and wonderful moments of connection with the community.
+Throughout my internship and participation in the First Cloud AI Journey program, I actively took part in five major events. Each event was a memorable experience that brought me fresh technical knowledge, useful soft skills, and wonderful moments of connection with the community.
 
 ### [Event 1](4.1-event1/)
 
@@ -33,16 +33,6 @@ Throughout my internship and participation in the First Cloud AI Journey program
 
 ### [Event 3](4.3-event3/)
 
-&emsp;**Event Name:** Mini Meetup – First Cloud AI Journey
-
-&emsp;**Date & Time:** 08:30, October 24, 2026
-
-&emsp;**Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City**
-
-&emsp;**Role:** Attendee
-
-### [Event 4](4.4-event4/)
-
 &emsp;**Event Name:** AWS First Cloud AI Journey Community Day
 
 &emsp;**Date & Time:** 09:00, October 31, 2026
@@ -53,7 +43,7 @@ Throughout my internship and participation in the First Cloud AI Journey program
 
 ---
 
-### [Event 5](4.5-event5/)
+### [Event 4](4.4-event4/)
 
 &emsp;**Event Name:** Cloud Mastery
 
@@ -65,7 +55,7 @@ Throughout my internship and participation in the First Cloud AI Journey program
 
 ---
 
-### [Event 6](4.6-event6/)
+### [Event 5](4.5-event5/)
 
 &emsp;**Event Name:** AWS Student Community Day Vietnam 2026
 

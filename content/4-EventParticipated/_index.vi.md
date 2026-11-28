@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong suốt quá trình thực tập và tham gia chương trình First Cloud AI Journey, tôi đã tích cực góp mặt trong 6 sự kiện lớn. Mỗi sự kiện đều là một trải nghiệm đáng nhớ, mang lại cho tôi nhiều kiến thức kỹ thuật mới mẻ, kỹ năng mềm hữu ích cùng những khoảnh khắc giao lưu tuyệt vời với cộng đồng.
+Trong suốt quá trình thực tập và tham gia chương trình First Cloud AI Journey, tôi đã tích cực góp mặt trong 5 sự kiện lớn. Mỗi sự kiện đều là một trải nghiệm đáng nhớ, mang lại cho tôi nhiều kiến thức kỹ thuật mới mẻ, kỹ năng mềm hữu ích cùng những khoảnh khắc giao lưu tuyệt vời với cộng đồng.
 
 ### [Event 1](4.1-event1/)
 
@@ -30,16 +30,6 @@ Trong suốt quá trình thực tập và tham gia chương trình First Cloud A
 
 ### [Event 3](4.3-event3/)
 
-&emsp;**Tên sự kiện:** Mini Meetup – First Cloud AI Journey
-
-&emsp;**Thời gian:** 08:30 ngày 24/10/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự
-
-### [Event 4](4.4-event4/)
-
 &emsp;**Tên sự kiện:** AWS First Cloud AI Journey Community Day
 
 &emsp;**Thời gian:** 09:00 ngày 31/10/2026
@@ -48,7 +38,7 @@ Trong suốt quá trình thực tập và tham gia chương trình First Cloud A
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
-### [Event 5](4.5-event5/)
+### [Event 4](4.4-event4/)
 
 &emsp;**Tên sự kiện:** Cloud Mastery
 
@@ -58,7 +48,7 @@ Trong suốt quá trình thực tập và tham gia chương trình First Cloud A
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
-### [Event 6](4.6-event6/)
+### [Event 5](4.5-event5/)
 
 &emsp;**Tên sự kiện:** AWS Student Community Day Vietnam 2026
 

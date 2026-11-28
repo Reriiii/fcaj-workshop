@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Trang này tổng hợp worklog của tôi trong kỳ thực tập First Cloud AI Journey (14/09/2026 – 04/12/2026).
+Trang này tổng hợp worklog của tôi trong kỳ thực tập First Cloud AI Journey (14/09/2026 – 14/12/2026).
 
 **Tuần 1:** [Onboarding FCAJ, thiết lập tài khoản AWS và kiến thức nền tảng cloud](1.1-week1/)
 

@@ -136,165 +136,64 @@ Tại điểm cầu TP.HCM, các nội dung keynote và technical sessions của
 
 ### Những Gì Học Được
 
-#### Agentic AI
+#### Thế nào là một agent
 
-- Hiểu rõ hơn sự khác biệt giữa AI chatbot thông thường và **Agentic AI**.
-- AI Agent có khả năng sử dụng tools, truy cập knowledge và thực hiện workflow gồm nhiều bước.
-- Agentic AI có thể tham gia vào nhiều giai đoạn của quá trình phát triển và vận hành phần mềm.
-- Việc xây dựng AI Agent cần xác định rõ scope, tools, data và cơ chế kiểm soát.
+- Chatbot chỉ trả lời; **agent** dùng công cụ, đọc nguồn tri thức và thực hiện quy trình nhiều bước.
+- Một agent chạy thật là cả một hệ thống chứ không chỉ là mô hình: LLM, agent framework, công cụ và API bên ngoài, tri thức, ngữ cảnh và bộ nhớ, bảo mật, giám sát và bước duyệt của con người.
+- Các framework và nền tảng được nhắc đến mà tôi muốn tìm hiểu: **LangGraph, Strands, Amazon Bedrock AgentCore** và **MCP server**.
 
-#### AI Agent Architecture
+#### AI trong toàn bộ vòng đời phát triển phần mềm
 
-Hiểu rằng một hệ thống AI Agent thực tế không chỉ bao gồm LLM mà còn có nhiều thành phần:
+- AI hiện hỗ trợ mọi giai đoạn: lập kế hoạch, viết code, kiểm thử, bảo mật, triển khai, giám sát và xử lý sự cố.
+- Các phiên chia sẻ mô tả sự chuyển dịch từ quy trình truyền thống sang **AI-native / AI-driven development lifecycle (AI-DLC)**. Nhóm TINA đang dùng AI-DLC, nên phần này giúp tôi hiểu vì sao quy trình được chia thành từng giai đoạn có bước duyệt.
 
-- Large Language Model.
-- Agent Framework.
-- Tools.
-- External APIs.
-- Knowledge Sources.
-- Context Management.
-- Memory.
-- Security.
-- Monitoring.
-- Human validation.
+#### MCP và ngữ cảnh
 
-Có thêm kiến thức về các framework và nền tảng như:
+- **Model Context Protocol (MCP)** cho trợ lý AI một cách chuẩn để kết nối công cụ, dữ liệu và ngữ cảnh dự án.
+- Chất lượng ngữ cảnh quyết định phần lớn chất lượng hỗ trợ của AI.
 
-- LangGraph.
-- Strands.
-- Amazon Bedrock AgentCore.
-- MCP Server.
+#### Bảo mật, vận hành và dữ liệu
 
-#### AI trong Software Development Lifecycle
-
-AI có thể được áp dụng xuyên suốt SDLC:
-
-- Planning.
-- Development.
-- Coding.
-- Testing.
-- Security.
-- Delivery.
-- Deployment.
-- Monitoring.
-- Troubleshooting.
-
-Hiểu thêm xu hướng chuyển từ Software Development Lifecycle truyền thống sang **AI-Native / AI-Driven Development Lifecycle**.
-
-#### AI Coding và MCP
-
-- Hiểu thêm vai trò của **Model Context Protocol (MCP)** trong việc kết nối AI với tools và nguồn dữ liệu.
-- MCP có thể giúp AI Coding Assistant truy cập context của project và các hệ thống bên ngoài.
-- Nhận thấy chất lượng context và knowledge ảnh hưởng lớn đến khả năng hỗ trợ của AI.
-- Có thêm định hướng nghiên cứu MCP cho các project AI Agent trong tương lai.
-
-#### AI Security
-
-- Hiểu thêm cách AI có thể hỗ trợ Application Security.
-- Security nên được xem xét từ giai đoạn thiết kế.
-- AI có thể hỗ trợ phát hiện vấn đề bảo mật trong quá trình development và deployment.
-- Khi xây dựng AI Agent cần quan tâm đồng thời đến quyền truy cập, dữ liệu và security.
-
-#### AI trong vận hành hệ thống
-
-- Hiểu tiềm năng của AI trong **Root Cause Analysis**.
-- AI có thể hỗ trợ phân tích log, metrics và các thông tin hệ thống để phục vụ troubleshooting.
-- AI có thể được sử dụng trong monitoring và operations thay vì chỉ giới hạn ở coding.
-
-#### Data và Cloud Infrastructure
-
-- Hiểu thêm vai trò của Data Foundation đối với hệ thống AI.
-- AI tốt cần được hỗ trợ bởi dữ liệu có chất lượng và kiến trúc hạ tầng phù hợp.
-- Hiểu thêm vai trò của Cloud trong việc cung cấp khả năng scalability và flexibility.
-- Có thêm góc nhìn về các workload cần latency thấp và khả năng sử dụng AWS Local Zone.
+- Bảo mật phải được tính từ khâu thiết kế; AI có thể giúp phát hiện vấn đề trong lúc phát triển và triển khai.
+- AI giúp **phân tích nguyên nhân gốc** nhanh hơn nhờ đọc log và metric.
+- AI tốt cần nền tảng dữ liệu vững và hạ tầng cloud có khả năng mở rộng; AWS Local Zones hỗ trợ các workload cần độ trễ thấp.
 
 ### Ứng Dụng Vào Công Việc
 
-- Nghiên cứu khả năng áp dụng **AI Agent** vào project hiện tại thay vì chỉ sử dụng mô hình hỏi – đáp thông thường.
-- Xem xét sử dụng các Agent Framework như **LangGraph hoặc Strands** để tổ chức workflow của Agent.
-- Nghiên cứu **Amazon Bedrock AgentCore** khi xây dựng AI Agent trên AWS.
-- Tìm hiểu khả năng sử dụng **MCP Server** để kết nối AI Agent với:
-  - Tools.
-  - APIs.
-  - Databases.
-  - Knowledge Base.
-  - Các hệ thống bên ngoài.
-
-- Thiết kế AI workflow với scope và boundary rõ ràng.
-- Xây dựng cơ chế human validation đối với những tác vụ quan trọng.
-- Quan tâm đến security và quyền truy cập khi Agent có khả năng sử dụng tools.
-- Tìm hiểu cách đưa AI vào nhiều giai đoạn của development lifecycle:
-  - Coding.
-  - Testing.
-  - Security.
-  - Deployment.
-  - Monitoring.
-
-- Áp dụng tư duy **AI-Native Development** khi xây dựng các project mới.
-- Chú trọng Data Foundation khi phát triển các ứng dụng sử dụng AI.
-- Xem xét observability và troubleshooting ngay từ giai đoạn thiết kế hệ thống.
-- Tiếp tục nghiên cứu các AWS services có thể hỗ trợ triển khai, mở rộng và vận hành các workload AI.
+- Cân nhắc dùng agent framework và **Bedrock AgentCore** cho trợ lý cuộc họp thay vì chỉ một mô hình hỏi đáp.
+- Dùng cách tích hợp kiểu MCP để agent truy cập công cụ, API và knowledge base.
+- Giữ bước **duyệt của con người** cho các hành động tác động ra bên ngoài, như cách TINA làm trước khi đồng bộ task.
+- Giới hạn quyền truy cập của từng agent và công cụ, lên kế hoạch giám sát ngay từ lúc thiết kế.
+- Đưa AI vào kiểm thử, review bảo mật và xử lý sự cố, không chỉ sinh code.
 
 ### Trải nghiệm trong event
 
-Tham gia **AWS Cloud & AI Day 2026: HCMC Watch Party** tại AWS Office HCM là một trải nghiệm hữu ích, giúp tôi cập nhật thêm nhiều xu hướng mới về Cloud và AI, đặc biệt là **Agentic AI, AI-Native Software Development và AI-driven Development Lifecycle**.
+Buổi **AWS Cloud & AI Day 2026: HCMC Watch Party** tại văn phòng AWS cho chúng tôi cùng theo dõi phần keynote và các phiên kỹ thuật của sự kiện tại Việt Nam. Các chủ đề chính là **Agentic AI, phát triển phần mềm AI-native và AI-DLC**.
 
-#### Theo dõi các nội dung chuyên sâu
+#### Các phiên chia sẻ
 
-- Theo dõi Opening Keynote và các technical sessions của AWS Cloud & AI Day Vietnam 2026.
-- Các session không chỉ tập trung vào AI Coding mà còn mở rộng sang Agentic AI, security, software development lifecycle và operations.
-- Qua các nội dung được chia sẻ, tôi có thêm góc nhìn về cách AI đang được tích hợp ngày càng sâu vào quá trình phát triển và vận hành hệ thống.
+- Nội dung không dừng ở AI coding mà mở rộng sang bảo mật, vòng đời phát triển và vận hành.
+- Phần về Strands, LangGraph, AgentCore và MCP giúp tôi hiểu rõ kiến trúc agent hiện đại: mô hình chỉ là một thành phần bên cạnh công cụ, ngữ cảnh và điều phối.
 
-#### Hiểu thêm về Agentic AI
+#### Giao lưu
 
-- Agentic AI là một trong những chủ đề nổi bật của sự kiện.
-- Hiểu thêm cách AI Agent có thể sử dụng tools và thực hiện workflow phức tạp thay vì chỉ sinh nội dung.
-- Có thêm góc nhìn về các thành phần cần thiết để đưa AI Agent từ prototype sang ứng dụng thực tế.
-- Nội dung này giúp tôi có thêm định hướng khi nghiên cứu và xây dựng các project Agentic AI trong tương lai.
+- Trong giờ nghỉ, tôi trao đổi với cộng đồng AWS Builders về AI agent, AI coding và những khó khăn khi đưa AI vào vận hành thật.
 
-#### Tiếp cận Agent Framework và MCP
+#### Điều rút ra
 
-- Các nội dung về **Strands, LangGraph, Amazon Bedrock AgentCore và MCP Server** giúp tôi hiểu rõ hơn kiến trúc của một AI Agent hiện đại.
-- Hiểu rằng model chỉ là một phần trong hệ thống; Agent còn cần tool integration, context, knowledge và orchestration.
-- MCP là một công nghệ đáng quan tâm để xây dựng khả năng kết nối giữa AI Agent và các hệ thống bên ngoài.
-
-#### Góc nhìn về AI trong SDLC
-
-- AI có thể hỗ trợ nhiều hơn việc sinh code.
-- AI đang được tích hợp vào security, deployment, monitoring và troubleshooting.
-- Điều này cho thấy AI có thể trở thành một thành phần xuyên suốt toàn bộ Software Development Lifecycle.
-
-#### Kết nối và trao đổi
-
-- Các khoảng thời gian networking tạo cơ hội trao đổi với cộng đồng AWS Builders tại TP.HCM.
-- Có cơ hội trao đổi về AI Agent, Cloud, AI Coding và các vấn đề khi triển khai AI trong thực tế.
-- Việc trao đổi trực tiếp giúp tôi có thêm những góc nhìn ngoài các nội dung technical session.
-
-#### Bài học rút ra
-
-- **AI Agent không chỉ là LLM**, mà là sự kết hợp giữa model, tools, knowledge, workflow và infrastructure.
-- Agentic AI có tiềm năng tự động hóa nhiều workflow nhưng cần scope và cơ chế kiểm soát rõ ràng.
-- Agent Framework đóng vai trò quan trọng trong việc tổ chức và điều phối hoạt động của AI Agent.
-- MCP và Knowledge Integration là những thành phần đáng quan tâm khi xây dựng Agent làm việc với hệ thống thực tế.
-- AI đang dần trở thành một phần của toàn bộ **Software Development Lifecycle**, không chỉ giới hạn ở coding.
-- Security và observability cần được xem xét song song với khả năng automation của AI.
-- Data Foundation và Cloud Infrastructure là nền tảng quan trọng khi triển khai AI ở quy mô lớn.
-- Việc đưa AI vào môi trường thực tế cần cân bằng giữa:
-  - Khả năng tự động hóa.
-  - Độ chính xác.
-  - Security.
-  - Chi phí.
-  - Reliability.
-  - Khả năng kiểm soát.
+- AI agent là sự kết hợp của mô hình, công cụ, tri thức, quy trình và hạ tầng.
+- Tự động hóa cần phạm vi rõ ràng, cơ chế kiểm soát và khả năng quan sát.
+- AI đang trở thành một phần của mọi giai đoạn phát triển phần mềm.
+- Đưa AI vào production là cân bằng giữa tự động hóa, độ chính xác, bảo mật, chi phí, độ tin cậy và khả năng kiểm soát.
 
 ### Một số hình ảnh khi tham gia sự kiện
 
-![Ảnh chụp tại sự kiện (người thứ 3 tính từ người chụp ảnh đến trong hàng)](/images/4-Event/event2-photo1.jpg)
+![Ảnh chụp tại sự kiện (tôi là người chụp ảnh)](/images/4-Event/event2-photo1.jpg)
 
-*Ảnh chụp tại sự kiện (người thứ 3 tính từ người chụp ảnh đến trong hàng).*
+*Ảnh chụp tại sự kiện (tôi là người chụp ảnh).*
 
-![Ảnh chụp tại sự kiện (người ngồi ngoài cùng hàng đầu bên phải)](/images/4-Event/event2-photo2.jpg)
+![Ảnh chụp tập thể tại sự kiện](/images/4-Event/event2-photo2.jpg)
 
-*Ảnh chụp tại sự kiện (người ngồi ngoài cùng hàng đầu bên phải).*
+*Ảnh chụp tập thể tại sự kiện.*
 
-> Tổng thể, **AWS Cloud & AI Day 2026: HCMC Watch Party** không chỉ giúp tôi cập nhật các xu hướng mới về Cloud và AI mà còn giúp tôi hiểu rõ hơn về hướng phát triển của Agentic AI và AI-Native Software Development. Qua các phiên chia sẻ và hoạt động networking, tôi có thêm kiến thức về AI Agent architecture, Agent Framework, MCP Server, AI Security, Data Foundation và AI-driven operations. Những nội dung này cũng giúp tôi xác định rõ hơn các công nghệ cần tiếp tục nghiên cứu và có thể ứng dụng vào các project trong tương lai.
+> Nhìn chung, buổi watch party cho tôi bức tranh thực tế về cách AI agent, MCP và AI-DLC đi vào quy trình phát triển phần mềm, cùng nhiều ý tưởng có thể áp dụng cho TINA.

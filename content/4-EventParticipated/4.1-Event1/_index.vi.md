@@ -50,74 +50,56 @@ pre: " <b> 4.1. </b> "
 
 ### Những Gì Học Được
 
-#### Kiến thức về Cloud và Generative AI
+#### Cloud và Generative AI luôn đi cùng nhau
 
-- Hiểu rõ hơn vai trò của **AWS Cloud** trong quá trình xây dựng các ứng dụng AI.
-- Cập nhật thêm xu hướng ứng dụng **Generative AI** trong thực tế.
-- Nhận thấy việc kết hợp kiến thức Cloud và AI là cần thiết khi phát triển các sản phẩm AI hiện đại.
+- Một tính năng AI chỉ thành sản phẩm khi chạy ổn định trên hạ tầng cloud; mô hình chỉ là một phần.
+- Generative AI đang chuyển rất nhanh từ demo sang ứng dụng thực tế, nên kỹ năng triển khai quan trọng không kém hiểu biết về mô hình.
 
-#### Agentic AI
+#### Từ chatbot đến agent
 
-- Có cái nhìn tổng quan hơn về **Agentic AI** và AI Agent.
-- Hiểu rằng AI Agent không chỉ tạo nội dung mà còn hướng tới khả năng xử lý nhiệm vụ và hỗ trợ giải quyết các bài toán thực tế.
-- Có thêm định hướng để tiếp tục tìm hiểu sâu về các hệ thống AI Agent.
+- **Agentic AI** chuyển trọng tâm từ tạo nội dung sang hoàn thành công việc: agent tự lên kế hoạch, gọi công cụ và hướng tới mục tiêu.
+- Điều này giúp tôi hình dung rõ hơn trợ lý "Ask TINA" mà nhóm đang dự định: nó cần hành động được dựa trên ngữ cảnh cuộc họp, không chỉ trả lời câu hỏi.
 
-#### Kinh nghiệm thực hành
+#### Học qua việc xây dựng
 
-- Củng cố kiến thức thông qua hoạt động **hands-on**.
-- Hiểu rõ hơn sự khác biệt giữa việc học lý thuyết và triển khai một giải pháp thực tế.
-- Nhận thấy tầm quan trọng của việc phân tích bài toán trước khi lựa chọn công nghệ và xây dựng giải pháp.
-
-#### Kỹ năng và định hướng nghề nghiệp
-
-- Hiểu thêm về những kỹ năng cần thiết khi theo đuổi lĩnh vực **Cloud & AI**.
-- Nhận thấy bên cạnh kiến thức kỹ thuật, khả năng làm việc nhóm, giao tiếp và giải quyết vấn đề cũng rất quan trọng.
-- Có thêm động lực xây dựng các project thực tế thay vì chỉ dừng lại ở việc học lý thuyết.
+- Phần thực hành cho thấy việc khó nhất là xác định đúng bài toán trước khi chọn công nghệ.
+- Làm việc nhóm, giao tiếp và khả năng trình bày giải pháp quan trọng không kém kỹ thuật khi phải làm ra sản phẩm trong thời gian ngắn.
 
 ### Ứng Dụng Vào Công Việc
 
-- Tiếp tục nghiên cứu về **AI Agent** và cách tích hợp Agent vào các project AI hiện tại.
-- Kết hợp kiến thức về **RAG, LLM và Agentic AI** để thử nghiệm các hệ thống có khả năng xử lý tác vụ phức tạp hơn.
-- Tìm hiểu thêm cách triển khai các ứng dụng AI trên **AWS Cloud**.
-- Áp dụng tư duy xây dựng sản phẩm thực tế thay vì chỉ tập trung vào mô hình hoặc thuật toán riêng lẻ.
-- Thực hành nhiều hơn thông qua các project nhỏ để củng cố kiến thức về Cloud và Generative AI.
+- Tìm hiểu sâu hơn các mẫu thiết kế AI agent và cách kết nối công cụ với LLM một cách an toàn trong dự án.
+- Kết hợp kiến thức **RAG, LLM** với luồng xử lý của agent để giải quyết các tác vụ nhiều bước.
+- Thực hành triển khai dịch vụ AI trên **AWS** thay vì chỉ chạy ở máy cá nhân.
+- Giữ tư duy sản phẩm: bắt đầu từ vấn đề của người dùng rồi mới chọn mô hình và dịch vụ.
 
 ### Trải nghiệm trong event
 
-Tham gia sự kiện **“Buildrathon Kickoff: Code the Future with CMC Global”** là cơ hội để tôi tiếp cận gần hơn với các ứng dụng thực tế của Cloud, Generative AI và Agentic AI. Sự kiện không chỉ tập trung vào kiến thức mà còn nhấn mạnh việc xây dựng sản phẩm, thực hành và kết nối với những người có cùng định hướng công nghệ.
+**Buildrathon Kickoff: Code the Future with CMC Global** là một trong những sự kiện cộng đồng đầu tiên của tôi trong chương trình. Sự kiện kết hợp phần chia sẻ với thử thách thực hành, giúp Cloud và Agentic AI trở nên cụ thể hơn nhiều so với chỉ đọc tài liệu.
 
-#### Học hỏi từ các diễn giả
+#### Diễn giả và thực hành
 
-- Các diễn giả chia sẻ những góc nhìn về **Cloud, Generative AI và AI Agent**.
-- Những chia sẻ thực tế giúp tôi hiểu thêm cách các công nghệ AI được tiếp cận và ứng dụng trong môi trường doanh nghiệp.
-- Tôi có thêm góc nhìn về định hướng phát triển kỹ năng trong lĩnh vực Cloud & AI.
+- Các diễn giả chia sẻ cách doanh nghiệp đang ứng dụng Generative AI và AI agent, cũng như những kỹ năng họ cần ở kỹ sư.
+- Phần hands-on buộc tôi suy nghĩ một giải pháp dựa trên agent từ đầu đến cuối, từ bài toán đến các dịch vụ cloud phía sau.
 
-#### Trải nghiệm hands-on
+#### Gặp gỡ và trao đổi
 
-- Hoạt động thực hành giúp tôi tiếp cận bài toán **xây dựng giải pháp AI Agent** theo hướng thực tế hơn.
-- Qua quá trình thực hành, tôi hiểu rằng để xây dựng một sản phẩm AI cần kết hợp kiến thức về AI, phần mềm và Cloud.
-- Đây cũng là cơ hội để kiểm tra lại những kiến thức đã học trước đó và xác định những phần cần tiếp tục cải thiện.
+- Tôi được trò chuyện với kỹ sư **CMC Global**, các thành viên FCAJ và nhiều bạn sinh viên cùng quan tâm Cloud & AI.
+- Những cuộc trao đổi này cho tôi thêm ý tưởng về dự án thực tế và định hướng nghề nghiệp mà các bài lab không mang lại.
 
-#### Kết nối và trao đổi
+#### Điều rút ra
 
-- Có cơ hội kết nối với các chuyên gia của **CMC Global**, các thành viên của FCAJ và những người có cùng đam mê về Cloud & AI.
-- Việc trao đổi trực tiếp giúp tôi có thêm góc nhìn về công nghệ, project thực tế và định hướng nghề nghiệp.
-- Networking cũng giúp mở rộng môi trường học hỏi và trao đổi kiến thức trong thời gian tới.
-
-#### Bài học rút ra
-
-- Việc học Cloud và AI nên đi kèm với **thực hành và xây dựng sản phẩm thực tế**.
-- Generative AI đang phát triển theo hướng các hệ thống có khả năng thực hiện nhiệm vụ, trong đó **AI Agent và Agentic AI** là những chủ đề cần tiếp tục nghiên cứu.
-- Kiến thức kỹ thuật chỉ là một phần; khả năng giải quyết vấn đề, làm việc nhóm và hiểu bài toán thực tế cũng rất quan trọng.
+- Học Cloud và AI hiệu quả nhất khi gắn với việc làm ra sản phẩm thật.
+- AI agent là hướng đáng theo dõi sát.
+- Xác định bài toán và làm việc nhóm quan trọng ngang với kiến thức kỹ thuật.
 
 #### Một số hình ảnh sự kiện
 
-![Ảnh chụp tại sự kiện Buildrathon Kickoff (người thứ 3 từ trái qua)](/images/4-Event/event1-photo1.jpg)
+![Ảnh chụp tại sự kiện Buildrathon Kickoff (người đầu tiên từ trái qua)](/images/4-Event/event1-photo1.jpg)
 
-*Ảnh chụp tại sự kiện Buildrathon Kickoff (người thứ 3 từ trái qua).*
+*Ảnh chụp tại sự kiện Buildrathon Kickoff (người đầu tiên từ trái qua).*
 
-![Ảnh chụp tại sự kiện Buildrathon Kickoff (người thứ 2 từ trái qua)](/images/4-Event/event1-photo2.jpg)
+![Ảnh chụp tại sự kiện Buildrathon Kickoff (người thứ 6 từ trái qua)](/images/4-Event/event1-photo2.jpg)
 
-*Ảnh chụp tại sự kiện Buildrathon Kickoff (người thứ 2 từ trái qua).*
+*Ảnh chụp tại sự kiện Buildrathon Kickoff (người thứ 6 từ trái qua).*
 
-> Tổng thể, sự kiện giúp tôi có thêm góc nhìn về AWS Cloud, Generative AI và Agentic AI, đồng thời nhấn mạnh tầm quan trọng của việc biến kiến thức thành các sản phẩm thực tế, chủ động thực hành và kết nối với cộng đồng công nghệ.
+> Tóm lại, buổi kickoff giúp tôi gắn Cloud, Generative AI và AI agent với sản phẩm thực tế, đồng thời thúc đẩy tôi học qua việc xây dựng và trao đổi với cộng đồng.

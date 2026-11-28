@@ -8,11 +8,11 @@ chapter: false
 
 ### Thông tin sinh viên:
 
-&emsp; **Họ và tên:** Thái Việt Nam
+&emsp; **Họ và tên:** Trần Kiến Quốc
 
-&emsp; **Số điện thoại:** 0347711232
+&emsp; **Số điện thoại:** 0375081836
 
-&emsp; **Email:** vnam27122005@gmail.com
+&emsp; **Email:** quockientran100@gmail.com
 
 &emsp; **Trường:** Đại học FPT HCM
 
@@ -24,7 +24,7 @@ chapter: false
 
 &emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 14/09/2026 đến ngày 30/11/2026
+&emsp; **Thời gian thực tập:** Từ ngày 14/09/2026 đến ngày 14/12/2026
 
 ![Ảnh đại diện của bạn](/images/avatar.jpg)
 

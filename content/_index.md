@@ -8,15 +8,15 @@ chapter: false
 
 ### Student Information:
 
-&emsp; **Full Name:** Thai Viet Nam
+&emsp; **Full Name:** Tran Kien Quoc
 
-&emsp; **Phone Number:** 0347711232
+&emsp; **Phone Number:** 0375081836
 
-&emsp; **Email:** vnam27122005@gmail.com
+&emsp; **Email:** quockientran100@gmail.com
 
 &emsp; **University:** FPT University
 
-&emsp; **Major:** Artification Intelligent
+&emsp; **Major:** Artificial Intelligence
 
 &emsp; **Class:** AWS092026
 
@@ -24,7 +24,7 @@ chapter: false
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 14/09/2026 to 30/11/2026
+&emsp; **Internship Duration:** From 14/09/2026 to 14/12/2026
 
 ![Your profile picture](/images/avatar.jpg)
 

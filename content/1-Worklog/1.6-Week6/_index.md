@@ -27,4 +27,3 @@ pre: " <b> 1.6. </b> "
 * Delivered the first U1 code: domain models, storage, meeting ownership and extension state.
 * Connected the backend to ASR and Bedrock through bounded adapters and chose Nova 2 Lite.
 * Secured the audio stream with single-use, versioned stream tickets.
-* Attended the First Cloud AI Journey Meet Up (24/10).

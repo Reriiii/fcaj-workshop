@@ -27,4 +27,3 @@ pre: " <b> 1.6. </b> "
 * Hoàn thành phần code đầu tiên của U1: domain model, storage, quyền sở hữu cuộc họp và trạng thái extension.
 * Kết nối backend với ASR và Bedrock qua adapter có giới hạn, chọn model Nova 2 Lite.
 * Bảo vệ luồng âm thanh bằng stream ticket dùng một lần, có phiên bản.
-* Tham dự First Cloud AI Journey Meet Up (24/10).

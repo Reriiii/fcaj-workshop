@@ -1,6 +1,6 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: 2026-11-24
+date: 2026-11-25
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
@@ -19,39 +19,39 @@ pre: " <b> 7. </b> "
 
 **1. Môi trường làm việc**
 
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung vào các tác vụ AI và kiến trúc phức tạp. Sẽ rất tốt nếu có thêm những buổi chia sẻ thân mật hoặc hoạt động giao lưu để các thành viên trong nhóm dự án 4 người hiểu nhau hơn.
+Chương trình cho tôi nhiều tự do trong cách làm việc, rất hợp với một dự án như TINA, nơi phần lớn công việc diễn ra qua code và pull request. Các sự kiện cộng đồng như AWS Cloud & AI Day watch party, Community Day và Cloud Mastery là dịp tốt để gặp gỡ mọi người ngoài nhóm và xem cách người khác dùng AWS. Tôi mong có thêm các ngày làm việc trực tiếp chung để các nhóm thực tập ngồi cùng nhau và gỡ vướng mắc nhanh hơn.
 
 **2. Sự hỗ trợ của mentor / team admin**
 
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc được phép tự thử và xử lý vấn đề — ví dụ như tự debug luồng phiên âm trực tiếp → agent → TTS — thay vì chỉ nhận sẵn đáp án.
+Mentor và team admin trả lời câu hỏi nhanh, chỉ cho tôi đúng bài lab và tài liệu cần đọc. Quy định chương trình và format báo cáo rõ ràng ngay từ tuần đầu. Điều giúp tôi nhiều nhất là được tin tưởng tự đưa ra quyết định kỹ thuật, sau đó nhận góp ý. Ví dụ, tôi tự thiết kế cơ chế điều phối lượt nói cho trợ lý giọng nói và chỉnh lại sau khi được review.
 
 **3. Sự phù hợp giữa công việc và chuyên ngành học**
 
-Công việc được giao phù hợp với chuyên ngành AI của mình, đồng thời mở ra những mảng chưa từng tiếp cận: generative AI trên Amazon Bedrock trong production, pipeline speech thời gian thực và kiến trúc container trên AWS. Nhờ vậy, mình vừa củng cố nền tảng học thuật về machine learning/NLP, vừa học được cách một hệ thống AI được triển khai, giám sát và kiểm soát chi phí thực tế.
+Tôi học về AI và dữ liệu. Kỳ thực tập nối chuyên ngành đó với những thứ ít được dạy ở trường: hạ tầng cloud, mạng, kiểm soát chi phí và vận hành dịch vụ thời gian thực. Làm trợ lý giọng nói giúp tôi dùng kiến thức về xử lý tiếng nói và mô hình ngôn ngữ, còn các bài lab AWS bù vào phần còn thiếu: hệ thống như vậy được triển khai và bảo mật ra sao.
 
 **4. Cơ hội học hỏi & phát triển kỹ năng**
 
-Trong vai trò thực tập sinh AI Engineer, mình học được cách tích hợp model Bedrock vào agent "Ask TINA", thiết kế prompt và ngữ cảnh cuộc họp, đánh giá chất lượng ASR tiếng Việt và bản tóm tắt, cũng như làm việc với dịch vụ STT/TTS. Bên cạnh đó, mình cải thiện các kỹ năng kỹ thuật khác: dịch vụ Python/TypeScript, Docker, CI/CD, quy trình Git/PR, tối ưu chi phí và giao tiếp chuyên nghiệp trong môi trường công ty. Kinh nghiệm thực tế từ mentor cũng giúp mình định hướng nghề nghiệp rõ ràng hơn.
+Tôi học các dịch vụ AWS cốt lõi qua lab thực hành rồi áp dụng vào một sản phẩm thật. Về kỹ thuật, tôi học cách làm việc trong monorepo lớn có CI gate, viết test trước khi merge, xử lý bí mật an toàn bằng cấu hình mã hóa và review code của người khác. Về kỹ năng làm việc, tôi học cách lên kế hoạch theo giai đoạn, viết proposal có ước tính chi phí và ghi worklog hằng tuần.
 
 **5. Văn hóa & tinh thần đồng đội**
 
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn gần gũi. Khi có dự án gấp, mọi người cùng hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy là một phần của tập thể, dù chỉ là thực tập sinh.
+Cộng đồng FCAJ cởi mở và sẵn sàng chia sẻ. Trong nhóm TINA, mỗi người phụ trách một mảng riêng — dịch, live assist, agent và giọng nói — nhưng chúng tôi review pull request cho nhau và cùng sửa lỗi tích hợp mỗi khi `main` thay đổi. Nhờ vậy dự án giống một sản phẩm chung hơn là bốn bài tập riêng lẻ.
 
 **6. Chính sách / phúc lợi cho thực tập sinh**
 
-Chương trình có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần. Việc được tham gia các buổi đào tạo nội bộ và sự kiện cộng đồng là một điểm cộng lớn.
+Lịch làm việc linh hoạt giúp tôi cân bằng giữa thực tập và việc học. AWS credits và quyền truy cập các dịch vụ như Amazon Bedrock giúp nhóm thử nghiệm được khối lượng công việc AI thật, miễn là theo dõi ngân sách cẩn thận.
 
 ### Một số câu hỏi khác
 
-- **Điều bạn hài lòng nhất?** Được thấy TINA chạy end-to-end trong một cuộc họp thật: transcript tiếng Việt trực tiếp, chế độ xem tiếng Anh/song ngữ, câu trả lời bằng giọng nói khi gọi wake word và email follow-up sau cuộc họp. Biến một sơ đồ kiến trúc trên giấy thành hệ thống chạy được là khoảnh khắc đáng giá nhất.
+- **Điều bạn hài lòng nhất?** Lần đầu tiên tôi gọi "Tina" trong một cuộc họp Google Meet thật, đặt câu hỏi và nghe câu trả lời được đọc lại ngay trong cuộc họp. Đó là kết quả của nhiều phần nhỏ chạy cùng nhau: nhận diện wake word, điều phối lượt nói, agent, TTS và bot phát âm thanh.
 
-- **Điều công ty nên cải thiện cho thực tập sinh sau?** Nên có cố vấn kỹ thuật có cấu trúc hơn cho các vai trò AI, ví dụ các buổi review đánh giá mô hình định kỳ và tiêu chí rõ ràng cho "đủ tốt" là gì, cùng với nhiều cơ hội trình bày công việc trước nhiều người hơn.
+- **Điều công ty nên cải thiện cho thực tập sinh sau?** Nên có một hướng dẫn ngắn về quản lý ngân sách AWS dùng chung ngay khi bắt đầu dự án, và các mốc kiểm tra rõ ràng cho thời điểm nhóm nên chuyển từ phát triển cục bộ sang triển khai trên AWS. Nhóm tôi đã tốn nhiều công sức kiểm soát chi phí, trong khi một mẫu chính sách ngân sách có sẵn đã có thể giải quyết phần lớn.
 
-- **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không?** Có. Chương trình cho thực tập sinh quyền sở hữu thật sự của một dự án, tiếp cận trực tiếp công nghệ AWS/AI và một cộng đồng luôn mong muốn thực tập sinh học hỏi.
+- **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không?** Có, đặc biệt với những bạn đã biết một chút về AI hoặc lập trình và muốn học cách xây dựng, vận hành một hệ thống thật trên cloud.
 
 ### Đề xuất & mong muốn
 
-- Thêm các buổi chia sẻ kỹ thuật ngắn định kỳ, nơi thực tập sinh demo sản phẩm và nhận feedback từ kỹ sư senior.
-- Cấp sớm hạn mức model và tài khoản thử nghiệm để các thí nghiệm AI không bị chặn bởi khâu cấp phép.
-- Duy trì việc để thực tập sinh dẫn dắt một luồng công việc và review PR chéo — điều này xây dựng tư duy kỹ thuật rất thực tế.
-- Sau kỳ thực tập, mình rất mong tiếp tục gắn kết với FCAJ và đóng góp vào TINA cùng các dự án AI-on-AWS tương tự.
+- Bổ sung một lộ trình lab (tùy chọn) về triển khai ứng dụng nhiều service lên ECS Fargate kèm CI/CD, sát với nhu cầu của dự án cuối kỳ.
+- Tổ chức buổi review giữa kỳ, mỗi nhóm demo một phần đã chạy được và nhận góp ý kiến trúc từ Solutions Architect.
+- Chia sẻ các mẫu ước tính chi phí và cấu hình cảnh báo ngân sách từ các khóa trước.
+- Sau kỳ thực tập, tôi muốn tiếp tục đóng góp cho TINA và giữ liên lạc với cộng đồng FCAJ.

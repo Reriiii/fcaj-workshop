@@ -1,89 +1,82 @@
 ---
 title: "Event 5"
-date: 2026-11-14
+date: 2026-11-21
 weight: 5
 chapter: false
 pre: " <b> 4.5. </b> "
 ---
 
-# Event Takeaways: "Cloud Mastery"
+# Event Takeaways: "AWS Student Community Day Vietnam 2026"
 
 ### Event Objectives
 
-- Gain deeper insights into core Cloud computing concepts and practical AWS architectures tailored for students and aspiring Cloud engineers.
-- Bridge the gap between theoretical knowledge and real-world industry requirements through direct mentorship and open Q&A sessions.
-- Understand career pathways, certification roadmaps, and essential skill sets needed to pursue roles in Cloud, DevOps, and AI/ML.
-- Reinforce technical knowledge through interactive group activities and a live technical quiz.
-- Build connections with fellow tech students across Ho Chi Minh City and mentors from the First Cloud AI Journey (FCAJ) community.
+- Gain practical, hands-on insights into Cloud Computing and Artificial Intelligence directly from experienced industry speakers.
+- Explore emerging trends and real-world applications in the Cloud and AI era tailored for university students.
+- Connect and network with student builders, community leaders, and tech practitioners across Ho Chi Minh City.
+- Reinforce technical understanding and engage with the community through interactive Q&A sessions and live minigames.
+- Fulfill community engagement milestones as part of the First Cloud AI Journey (FCAJ) OJT learning path.
 
-### Event Overview & Context
+### Event Overview & Co-Organizers
 
-The **Cloud Mastery** event was organized by the **First Cloud AI Journey (FCAJ)** community for university students across Ho Chi Minh City. 
+**AWS Student Community Day Vietnam 2026** is a flagship student-led tech conference co-organized by the alliance of **AWS Student Builder Groups (SBG)** across four major universities in Ho Chi Minh City:
 
-- **Date & Time:** Saturday morning, November 14, 2026.
-- **Location:** AWS Vietnam Office, 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, District 1, Ho Chi Minh City.
-- **Participants:** Young tech students from various universities in Saigon alongside experienced mentors from FCAJ.
+- **HUFLIT** – AWS Student Builder Group at HUFLIT
+- **HCMUTE** – AWS Student Builder Group HCMUTE
+- **PTIT** – AWS Student Builder Group PTIT HCM
+- **SGU** – AWS Student Builder Group Saigon University
+
+**Event Logistics:**
+- **Date & Time:** 9:00 AM – 11:30 AM, Saturday, November 21, 2026.
+- **Venue:** 26th Floor, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City, Vietnam.
 
 ### Key Highlights
 
-#### Technical Sharing & Cloud Foundations
+#### Student-Led Cloud & AI Ecosystem
 
-- The session covered practical perspectives on mastering Cloud technologies, emphasizing hands-on practice over passive learning.
-- Mentors shared structured learning paths for students starting from foundational AWS services before advancing to complex architectures.
-- Discussions highlighted the importance of understanding core infrastructure components, security best practices, and cost optimization early in a student's learning journey.
+- Designed *by students for students*, the conference highlighted the rapid growth of university-level Cloud communities in Vietnam.
+- Representatives from the four Student Builder Groups collaborated to deliver a structured program bridging campus learning with real-world AWS ecosystems.
 
-#### Extended Open Q&A Session
+#### Practical Cloud & AI Technical Sessions
 
-- One of the standout segments of the morning was an extensive, high-energy Q&A session that felt almost endless due to the strong engagement from attendees.
-- Students raised practical and thought-provoking questions spanning two main areas:
-  - **Career Orientation:** How to prepare portfolios, stand out in technical interviews, choose between specialized tracks (Solutions Architect, Cloud Engineer, DevOps), and transition from academic projects to internships.
-  - **Technical Deep Dives:** Real-world architectural challenges, troubleshooting approaches, and best practices when building applications on AWS.
-- Mentors provided candid, actionable feedback grounded in real project experience rather than textbook definitions.
+- Industry speakers shared hands-on perspectives on deploying modern workloads using AWS Cloud and AI services.
+- Sessions emphasized practical implementation, architectural thinking, and how students can leverage Cloud and AI tools to accelerate their personal projects and career readiness.
 
-#### Interactive Quiz Challenge
+#### Interactive Q&A and Minigames
 
-- The event concluded with an enthusiastic technical Quiz game designed to test participants' understanding of the morning's topics and general AWS knowledge.
-- The activity created a lively, competitive atmosphere while helping students review key concepts in a memorable way.
-
-#### Community Preview: AWS Student Community Day Vietnam 2026
-
-- During the closing remarks, organizers shared an exciting preview of an upcoming student-focused Cloud workshop: **AWS Student Community Day Vietnam 2026**, scheduled for the following weekend.
-- This announcement encouraged participants to stay active in the ecosystem and continue their learning momentum.
+- Participants actively engaged with speakers during open Q&A segments, raising questions about technical implementation, skill building, and career progression in Cloud and AI.
+- Live minigames and interactive challenges kept the energy high and rewarded attendees with exclusive AWS swags and community gifts.
 
 ### What I Learned
 
-#### Career Orientation and Skill Development
+#### Cloud and AI skills together
 
-- Building a career in Cloud requires a combination of solid fundamentals, documented hands-on labs, and the ability to articulate architectural trade-offs.
-- Asking specific, context-driven questions is one of the fastest ways to clarify career roadblocks and learn from industry practitioners.
-- Active participation in tech communities accelerates growth by exposing students to peers facing similar technical challenges.
+- Entry-level engineering roles increasingly expect both Cloud architecture basics and the ability to work with AI.
+- Building, testing and iterating on real services teaches far more than reading alone.
 
-#### Technical Mindset
+#### Student communities
 
-- Mastering Cloud is not about memorizing service names; it is about understanding how services integrate to solve business and scalability problems.
-- Interactive assessments, such as live quizzes, are effective tools for identifying knowledge gaps and reinforcing core concepts under time constraints.
+- Cross-university groups such as the AWS Student Builder Groups offer peer support, shared resources and chances to lead.
+- Talking directly with speakers and organizers helps students understand industry expectations and start a professional network early.
 
 ### Applying to Work
 
-- Map out a structured personal learning roadmap combining AWS foundational labs with end-to-end mini-projects.
-- Document technical challenges, architectural decisions, and troubleshooting steps in GitHub repositories or technical blogs to build a strong portfolio.
-- Regularly participate in community workshops, study groups, and technical Q&A sessions to stay updated with industry practices.
-- Review core AWS service fundamentals (compute, storage, networking, and IAM) to strengthen readiness for technical assessments and interviews.
+- Use Cloud and AI services discussed at the event in my own projects, starting with the TINA deployment on AWS.
+- Write up architecture lessons and implementation notes to strengthen my portfolio.
+- Stay involved with student builder groups and the FCAJ community.
 
 ### Event Experience
 
-Cloud Mastery offered an energetic and welcoming environment for students passionate about Cloud computing in Ho Chi Minh City. Hosting the session directly at the AWS office in Bitexco Financial Tower added an inspiring, professional atmosphere to the morning.
+**AWS Student Community Day Vietnam 2026** gathered many young builders at the AWS Vietnam office. It was organized by students from HUFLIT, HCMUTE, PTIT and SGU, and the atmosphere was energetic and welcoming.
 
-#### The Value of Open Dialogue and Peer Learning
+#### Campus meets industry
 
-- Unlike traditional one-way lectures, the "endless" Q&A session transformed the event into an interactive dialogue driven by students' real concerns.
-- Hearing questions from peers across different universities broadened my perspective on common technical hurdles and career preparation strategies.
-- Combined with the lively wrap-up quiz and the preview of AWS Student Community Day Vietnam 2026, the event left a strong motivation to keep building and engaging with the FCAJ community. 
+- The event showed how student-led initiatives can connect students directly with Cloud practitioners.
+- Technical talks, open Q&A and minigames together made it both informative and motivating to keep building on AWS.
 
 ### Some Event Photos
 
-![Cloud Mastery event (second person from the left)](/images/4-Event/event5-photo1.jpg)
+![AWS Student Community Day Vietnam 2026 (1st person from the right)](/images/4-Event/event6-photo1.jpg)
 
-*Cloud Mastery event (second person from the left).*
+*AWS Student Community Day Vietnam 2026 (1st person from the right).*
 
-> Overall, Cloud Mastery offered an energetic and welcoming space for students passionate about Cloud, combining practical sharing, an extended open Q&A, a lively quiz and a preview of AWS Student Community Day Vietnam 2026. The event reinforced the value of hands-on practice, community dialogue and a clear learning roadmap in building a Cloud career.
+> Overall, Student Community Day was an energetic, student-led event that strengthened my motivation to keep building with Cloud and AI and to stay active in the community.

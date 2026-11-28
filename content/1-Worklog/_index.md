@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-This page summarizes my worklog during the First Cloud AI Journey internship (14/09/2026 – 04/12/2026).
+This page summarizes my worklog during the First Cloud AI Journey internship (14/09/2026 – 14/12/2026).
 
 **Week 1:** [FCAJ onboarding, AWS account setup and cloud fundamentals](1.1-week1/)
 

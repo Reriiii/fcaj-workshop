@@ -136,165 +136,64 @@ At the HCMC hub, keynotes and technical sessions of **AWS Cloud & AI Day Vietnam
 
 ### What I Learned
 
-#### Agentic AI
+#### What makes an agent
 
-- Clearer understanding of the difference between regular AI chatbots and **Agentic AI**.
-- AI Agents can use tools, access knowledge and execute multi-step workflows.
-- Agentic AI can participate in many stages of software development and operations.
-- Building AI Agents requires clearly defined scope, tools, data and control mechanisms.
+- A chatbot answers; an **agent** uses tools, reads knowledge sources and runs multi-step workflows.
+- A production agent is a system, not just a model: LLM, agent framework, tools and external APIs, knowledge, context and memory, security, monitoring and human approval.
+- Frameworks and platforms mentioned that I want to explore: **LangGraph, Strands, Amazon Bedrock AgentCore** and **MCP servers**.
 
-#### AI Agent Architecture
+#### AI across the whole SDLC
 
-Understood that a real-world AI Agent system consists of much more than an LLM:
+- AI now supports every stage: planning, coding, testing, security, deployment, monitoring and troubleshooting.
+- The talks described a move from a traditional lifecycle to an **AI-native / AI-driven development lifecycle (AI-DLC)**. Our TINA team was already using AI-DLC, so this helped me understand why it is structured in stages with approvals.
 
-- Large Language Model.
-- Agent Framework.
-- Tools.
-- External APIs.
-- Knowledge Sources.
-- Context Management.
-- Memory.
-- Security.
-- Monitoring.
-- Human validation.
+#### MCP and context
 
-Gained additional knowledge of frameworks and platforms such as:
+- **Model Context Protocol (MCP)** gives AI assistants a standard way to reach tools, data and project context.
+- The quality of the context largely decides the quality of AI help.
 
-- LangGraph.
-- Strands.
-- Amazon Bedrock AgentCore.
-- MCP Server.
+#### Security, operations and data
 
-#### AI in the Software Development Lifecycle
-
-AI can be applied across the SDLC:
-
-- Planning.
-- Development.
-- Coding.
-- Testing.
-- Security.
-- Delivery.
-- Deployment.
-- Monitoring.
-- Troubleshooting.
-
-The shift from traditional Software Development Lifecycle to **AI-Native / AI-Driven Development Lifecycle**.
-
-#### AI Coding and MCP
-
-- The role of **Model Context Protocol (MCP)** in connecting AI with tools and data sources.
-- MCP can help AI Coding Assistants access project context and external systems.
-- Context and knowledge quality greatly affect AI assistance capabilities.
-- More direction for researching MCP for future AI Agent projects.
-
-#### AI Security
-
-- How AI can support Application Security.
-- Security should be considered from the design stage.
-- AI can help detect security issues during development and deployment.
-- When building AI Agents, access rights, data and security must all be addressed.
-
-#### AI in system operations
-
-- The potential of AI in **Root Cause Analysis**.
-- AI can analyze logs, metrics and system information to support troubleshooting.
-- AI can be used in monitoring and operations, not limited to coding.
-
-#### Data and Cloud Infrastructure
-
-- The role of Data Foundation for AI systems.
-- Good AI needs quality data and suitable infrastructure architecture.
-- The role of Cloud in providing scalability and flexibility.
-- Perspectives on low-latency workloads and using AWS Local Zones.
+- Security has to be designed in from the start; AI can help find issues during development and deployment.
+- AI can speed up **root cause analysis** by reading logs and metrics.
+- Good AI depends on a solid data foundation and scalable cloud infrastructure; AWS Local Zones help low-latency workloads.
 
 ### Applying to Work
 
-- Research applying **AI Agents** to current projects instead of only using conventional Q&A models.
-- Consider Agent Frameworks such as **LangGraph or Strands** to organize Agent workflows.
-- Research **Amazon Bedrock AgentCore** when building AI Agents on AWS.
-- Explore using **MCP Servers** to connect AI Agents with:
-  - Tools.
-  - APIs.
-  - Databases.
-  - Knowledge Bases.
-  - External systems.
-
-- Design AI workflows with clear scope and boundary.
-- Build human validation mechanisms for critical tasks.
-- Pay attention to security and access rights when Agents can use tools.
-- Explore bringing AI into more development lifecycle stages:
-  - Coding.
-  - Testing.
-  - Security.
-  - Deployment.
-  - Monitoring.
-
-- Apply an **AI-Native Development** mindset when building new projects.
-- Focus on Data Foundation when developing AI-powered applications.
-- Consider observability and troubleshooting from system design stages.
-- Continue researching AWS services that support deploying, scaling and operating AI workloads.
+- Consider agent frameworks and **Bedrock AgentCore** for the meeting assistant instead of a plain Q&A model.
+- Use MCP-style integrations so the agent can reach tools, APIs and knowledge bases.
+- Keep a **human approval** step for actions with external effects, as TINA does before syncing tasks.
+- Limit what each agent and tool can access, and plan monitoring from the design stage.
+- Bring AI into testing, security review and troubleshooting, not only code generation.
 
 ### Event Experience
 
-Attending **AWS Cloud & AI Day 2026: HCMC Watch Party** at AWS Office HCM was a rewarding experience, helping me catch up on many Cloud and AI trends, especially **Agentic AI, AI-Native Software Development and AI-driven Development Lifecycle**.
+The **AWS Cloud & AI Day 2026: HCMC Watch Party** at the AWS office let us follow the Vietnam keynote and technical tracks together. The main threads were **Agentic AI, AI-native software development and AI-DLC**.
 
-#### Following in-depth content
+#### Sessions
 
-- Followed the Opening Keynote and technical sessions of AWS Cloud & AI Day Vietnam 2026.
-- Sessions went beyond AI Coding into Agentic AI, security, software development lifecycle and operations.
-- I gained perspectives on how deeply AI is being integrated into system development and operations.
+- The sessions went beyond AI coding into security, the development lifecycle and operations.
+- The parts on Strands, LangGraph, AgentCore and MCP made modern agent architecture much clearer to me: the model is only one component next to tools, context and orchestration.
 
-#### Learning more about Agentic AI
+#### Networking
 
-- Agentic AI was one of the event highlights.
-- Learned how AI Agents can use tools and execute complex workflows instead of just generating content.
-- Gained perspectives on the components needed to take AI Agents from prototype to production.
-- This helps orient my future research and Agentic AI projects.
+- During the breaks I talked with members of the AWS Builders community about AI agents, AI coding and the problems of running AI in production.
 
-#### Approaching Agent Frameworks and MCP
+#### Key takeaways
 
-- Content on **Strands, LangGraph, Amazon Bedrock AgentCore and MCP Server** clarified modern AI Agent architecture.
-- The model is only one part of the system; Agents also need tool integration, context, knowledge and orchestration.
-- MCP is a technology worth watching for connecting AI Agents with external systems.
-
-#### Perspectives on AI in the SDLC
-
-- AI can support much more than code generation.
-- AI is being integrated into security, deployment, monitoring and troubleshooting.
-- AI is becoming a component across the entire Software Development Lifecycle.
-
-#### Connecting and exchanging ideas
-
-- Networking breaks enabled exchanges with the AWS Builders community in HCMC.
-- Opportunities to discuss AI Agents, Cloud, AI Coding and real-world AI deployment issues.
-- Direct exchanges provided perspectives beyond the technical sessions.
-
-#### Lessons learned
-
-- **An AI Agent is not just an LLM** — it combines model, tools, knowledge, workflow and infrastructure.
-- Agentic AI can automate many workflows but needs clear scope and control mechanisms.
-- Agent Frameworks play a key role in organizing and orchestrating AI Agent activity.
-- MCP and Knowledge Integration are components worth watching when building Agents that work with real systems.
-- AI is gradually becoming part of the entire **Software Development Lifecycle**, not limited to coding.
-- Security and observability must be considered alongside AI automation capabilities.
-- Data Foundation and Cloud Infrastructure are critical foundations when deploying AI at scale.
-- Bringing AI into production requires balancing:
-  - Automation capability.
-  - Accuracy.
-  - Security.
-  - Cost.
-  - Reliability.
-  - Controllability.
+- An AI agent combines model, tools, knowledge, workflow and infrastructure.
+- Automation needs clear scope, control and observability.
+- AI is becoming part of every stage of software delivery.
+- Production AI is a balance of automation, accuracy, security, cost, reliability and control.
 
 ### Some event photos
 
-![Group photo at the event (3rd person from the photographer in that row)](/images/4-Event/event2-photo1.jpg)
+![Group photo at the event (I'm the photographer)](/images/4-Event/event2-photo1.jpg)
 
-*Group photo at the event (3rd person from the photographer in that row).*
+*Group photo at the event (I'm the photographer).*
 
-![Group photo at the event (person sitting at the far right end of the front row)](/images/4-Event/event2-photo2.jpg)
+![Group photo at the event](/images/4-Event/event2-photo2.jpg)
 
-*Group photo at the event (person sitting at the far right end of the front row).*
+*Group photo at the event.*
 
-> Overall, **AWS Cloud & AI Day 2026: HCMC Watch Party** not only updated me on Cloud and AI trends but also deepened my understanding of Agentic AI and AI-Native Software Development. Through sharing sessions and networking, I gained knowledge of AI Agent architecture, Agent Frameworks, MCP Server, AI Security, Data Foundation and AI-driven operations. This also helps me better identify technologies to keep researching and apply to future projects.
+> Overall, the watch party gave me a practical picture of how AI agents, MCP and AI-DLC fit into real software delivery, and many ideas I could bring back to TINA.

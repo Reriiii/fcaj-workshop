@@ -50,74 +50,56 @@ pre: " <b> 4.1. </b> "
 
 ### What I Learned
 
-#### Cloud and Generative AI knowledge
+#### Cloud and Generative AI go together
 
-- Better understood the role of **AWS Cloud** in building AI applications.
-- Caught up on more trends in applying **Generative AI** in practice.
-- Realized that combining Cloud and AI knowledge is essential when developing modern AI products.
+- An AI feature only becomes a product once it runs reliably on cloud infrastructure; the model is just one piece.
+- Generative AI is moving quickly from demos to real business use, so practical deployment skills matter as much as model knowledge.
 
-#### Agentic AI
+#### From chatbots to agents
 
-- Gained a broader overview of **Agentic AI** and AI Agents.
-- Understood that AI Agents go beyond content generation toward the ability to handle tasks and help solve practical problems.
-- Gained more direction to continue exploring AI Agent systems in depth.
+- **Agentic AI** shifts the focus from producing text to completing tasks: an agent plans, calls tools and works toward a goal.
+- This gave me a clearer frame for the "Ask TINA" assistant our team was planning: it should be able to act on meeting context, not only answer questions.
 
-#### Hands-on experience
+#### Learning by building
 
-- Reinforced knowledge through **hands-on** activities.
-- Better understood the difference between learning theory and deploying a practical solution.
-- Recognized the importance of analyzing the problem before choosing technologies and building a solution.
-
-#### Skills and career orientation
-
-- Learned more about the skills needed to pursue the **Cloud & AI** field.
-- Realized that besides technical knowledge, teamwork, communication and problem-solving skills are also very important.
-- Gained more motivation to build practical projects instead of stopping at theoretical learning.
+- The hands-on part showed that the hard work is defining the problem well before picking any technology.
+- Teamwork, communication and the ability to explain a solution count as much as technical skill when building something in a short time.
 
 ### Applying to Work
 
-- Continue researching **AI Agents** and how to integrate Agents into current AI projects.
-- Combine knowledge of **RAG, LLMs and Agentic AI** to experiment with systems capable of handling more complex tasks.
-- Learn more about deploying AI applications on **AWS Cloud**.
-- Apply a practical product-building mindset instead of focusing only on individual models or algorithms.
-- Practice more through small projects to reinforce Cloud and Generative AI knowledge.
+- Look deeper into AI agent patterns and how tools can be connected safely to an LLM in our project.
+- Combine what I know about **RAG and LLMs** with agent workflows to handle multi-step tasks.
+- Practise deploying AI services on **AWS**, not only running them locally.
+- Keep a product mindset: start from the user's problem, then choose models and services.
 
 ### Event Experience
 
-Joining **"Buildrathon Kickoff: Code the Future with CMC Global"** was an opportunity for me to get closer to real-world applications of Cloud, Generative AI and Agentic AI. The event focused not only on knowledge but also emphasized building products, hands-on practice and connecting with people who share the same technology orientation.
+**Buildrathon Kickoff: Code the Future with CMC Global** was one of my first community events in the program. It mixed talks with a practical challenge, which made Cloud and Agentic AI feel much more concrete than reading about them.
 
-#### Learning from the speakers
+#### Speakers and practice
 
-- The speakers shared perspectives on **Cloud, Generative AI and AI Agents**.
-- Practical sharing helped me better understand how AI technologies are approached and applied in business environments.
-- I gained additional perspectives on skill development orientation in Cloud & AI.
+- The speakers explained how companies are adopting Generative AI and AI agents, and which skills they look for in engineers.
+- The hands-on activity made me think through an agent-based solution end to end, from the problem to the cloud services behind it.
 
-#### Hands-on experience
+#### Meeting people
 
-- The hands-on activity helped me approach the problem of **building an AI Agent solution** in a more practical way.
-- Through the practice, I understood that building an AI product requires combining knowledge of AI, software and Cloud.
-- It was also an opportunity to review what I had learned before and identify areas for further improvement.
+- I talked with engineers from **CMC Global**, FCAJ members and other students interested in Cloud & AI.
+- These conversations gave me ideas on real projects and career paths that I would not get from labs alone.
 
-#### Connecting and exchanging ideas
+#### Key takeaways
 
-- Had the opportunity to connect with experts from **CMC Global**, FCAJ members and people who share the same passion for Cloud & AI.
-- Direct exchanges gave me additional perspectives on technology, real-world projects and career orientation.
-- Networking also helps expand the learning and knowledge-sharing environment going forward.
-
-#### Lessons learned
-
-- Learning Cloud and AI should go hand in hand with **practice and building real products**.
-- Generative AI is evolving toward systems capable of performing tasks, in which **AI Agents and Agentic AI** are topics to keep researching.
-- Technical knowledge is only one part; problem-solving ability, teamwork and understanding real-world problems are equally important.
+- Learning Cloud and AI works best when it is tied to building something real.
+- AI agents are a direction worth following closely.
+- Problem framing and teamwork are as important as technical knowledge.
 
 #### Some event photos
 
-![Group photo at the Buildrathon Kickoff event (3rd person from the left)](/images/4-Event/event1-photo1.jpg)
+![Group photo at the Buildrathon Kickoff event (1st person from the left)](/images/4-Event/event1-photo1.jpg)
 
-*Group photo at the Buildrathon Kickoff event (3rd person from the left).*
+*Group photo at the Buildrathon Kickoff event (1st person from the left).*
 
-![Group photo at the Buildrathon Kickoff event (2nd person from the left)](/images/4-Event/event1-photo2.jpg)
+![Group photo at the Buildrathon Kickoff event (6th person from the left)](/images/4-Event/event1-photo2.jpg)
 
-*Group photo at the Buildrathon Kickoff event (2nd person from the left).*
+*Group photo at the Buildrathon Kickoff event (6th person from the left).*
 
-> Overall, the event gave me additional perspectives on AWS Cloud, Generative AI and Agentic AI, while emphasizing the importance of turning knowledge into real products, actively practicing and connecting with the tech community.
+> In short, the kickoff connected Cloud, Generative AI and AI agents to real products and pushed me to learn by building and by talking with the community.
